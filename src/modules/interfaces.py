@@ -11,15 +11,19 @@ class Module:
         self.user = os.environ[self.name + '_USER']
         self.password = os.environ[self.name + '_PASSWORD']
         self.session = requests.Session()
-        self.successful = False
+        self.initialized = False
 
-    def start(self):
+    def login(self):
         """Logs into the online classroom webpage."""
 
         raise NotImplementedError
 
-    def main(self, catalog):
-        """Parses the webpage for assignments and adds them to CATALOG."""
+    def run(self, assignments):
+        if self.initialized:
+            self._main(assignments)
+
+    def _main(self, assignments):
+        """Parses the webpage for assignments and adds them to ASSIGNMENTS."""
 
         raise NotImplementedError
 
@@ -31,8 +35,6 @@ class Module:
     #################################
     #       Helper Functions        #
     #################################
-    def parse_html(self, html):
+    @staticmethod
+    def parse_html(html):
         return BeautifulSoup(html, 'html.parser')
-
-    def success(self):
-        self.successful = True

@@ -3,9 +3,9 @@ from src.modules.interfaces import Module
 
 class Gradescope(Module):
     def login(self):
-        # Extrac authentication token from login page
-        login_page_html = self.session.get("https://www.gradescope.com/")
-        login_page = self.parse_html(login_page_html.text)
+        # Extract authentication token from login page
+        login_page_res = self.session.get("https://www.gradescope.com/")
+        login_page = Module.parse_html(login_page_res.text)
         token = None
         for form in login_page.find_all('form'):
             if form.get('action') == '/login':
@@ -30,9 +30,21 @@ class Gradescope(Module):
                 params=login_payload
             )
             if login_response.status_code == 200:
-                self.success()
+                self.initialized = True
+
+    def _main(self, assignments):
+        dashboard_res = self.session.get('https://www.gradescope.com/account')
+        dashboard = Module.parse_html(dashboard_res.text)
+
+        courses = dashboard.find('div', {'class': 'courseList--coursesForTerm'})
+        for course in courses.find_all('a', {'class': 'courseBox'}):
+            course_name = course.find('h3', {'class': 'courseBox--shortname'}).text
+            print(course_name)
 
 
 if __name__ == '__main__':
+    arr = []
     test = Gradescope()
     test.login()
+    test.run(arr)
+    test.finish()
