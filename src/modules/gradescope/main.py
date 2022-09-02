@@ -100,9 +100,3 @@ class Gradescope(Module):
         if anchor is not None:
             link = anchor.get('href')
         return Gradescope.ROOT + link
-
-
-if __name__ == '__main__':
-    arr = []
-    test = Gradescope()
-    test.run(arr)

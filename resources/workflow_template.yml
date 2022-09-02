@@ -1,0 +1,45 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+
+name: Planit Backend
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+  - cron: '30 */1 * * *'
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.10"
+        cache: "pip"
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        python -m pip install -r requirements.txt
+
+    - name: Retrieve assignment information
+      run: |
+        python --version
+        python main.py
+      env:
+        __ENV__
+    
+    - name: Commit new outputs
+      run: |
+        git config --global user.name 'ml-paper-implementations'
+        git config --global user.email 'ml-paper-implementations@tanjeffreyz.github.io'
+        git add *
+        git commit -m 'Updated webpage'
+        git push
+        git push -f origin main:github-pages
