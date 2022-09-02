@@ -1,10 +1,11 @@
+import dateparser
 from src.modules.interfaces import Module
 
 
 class Gradescope(Module):
     ROOT = 'https://www.gradescope.com'
 
-    def init(self):
+    def _init(self):
         # Extract authentication token from login page
         login_page_res = self.session.get(Gradescope.ROOT)
         login_page = Module.parse_html(login_page_res.text)
@@ -48,8 +49,12 @@ class Gradescope(Module):
             course_dashboard = Module.parse_html(course_dashboard_res.text)
             assignment_table = course_dashboard.find('tbody')
             for row in assignment_table.find_all('tr', {'role': 'row'}):
-
-                print(course_name, Gradescope._get_assignment_title(row))
+                title = Gradescope._get_assignment_title(row)
+                date_string = Gradescope._get_assignment_due_date(row)
+                due_date = dateparser.parse(date_string)
+                status = Gradescope._get_assignment_status(row)
+                done = (status != 'No Submission')
+                print(course_name, status, due_date)
 
     @staticmethod
     def _get_assignment_title(row):
@@ -63,9 +68,20 @@ class Gradescope(Module):
             title = heading
         return title.text
 
+    @staticmethod
+    def _get_assignment_due_date(row):
+        """Returns the title of an assignment given its row in the table."""
+
+        return row.find('span', {'class': 'submissionTimeChart--dueDate'}).text
+
+    @staticmethod
+    def _get_assignment_status(row):
+        """Returns the title of an assignment given its row in the table."""
+
+        return row.find('div', {'class': 'submissionStatus--text'}).text
+
 
 if __name__ == '__main__':
     arr = []
     test = Gradescope()
-    test.init()
     test.run(arr)

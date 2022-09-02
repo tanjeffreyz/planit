@@ -14,19 +14,25 @@ class Module:
             self.password = os.environ[self.name + '_PASSWORD']
             self.valid = True
         except KeyError as e:
+            print(f"Invalid environment variable {e}")
             self.valid = False
 
         self.session = requests.Session()
         self.initialized = False
 
-    def init(self):
+    def run(self, assignments):
+        if not self.valid:
+            return
+        self._init()
+
+        if not self.initialized:
+            return print(f"Unable to initialize '{self.name}'")
+        self._main(assignments)
+
+    def _init(self):
         """Sets up the web scraper."""
 
         raise NotImplementedError
-
-    def run(self, assignments):
-        if self.valid and self.initialized:
-            self._main(assignments)
 
     def _main(self, assignments):
         """Parses the webpage for assignments and adds them to ASSIGNMENTS."""
