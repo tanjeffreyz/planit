@@ -42,6 +42,20 @@
     "submitted": true
   },
   {
+    "title": "Homework 2",
+    "course": "Data 100",
+    "dueDate": "2022-09-08 23:59:00",
+    "link": "https://www.gradescope.com/courses/422877",
+    "submitted": false
+  },
+  {
+    "title": "Lab 2",
+    "course": "Data 100",
+    "dueDate": "2022-09-06 23:59:00",
+    "link": "https://www.gradescope.com/courses/422877",
+    "submitted": false
+  },
+  {
     "title": "Quick Check 2",
     "course": "Data 100",
     "dueDate": "2022-09-05 23:59:00",
