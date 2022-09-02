@@ -37,9 +37,8 @@ jobs:
     
     - name: Commit new outputs
       run: |
-        git config --global user.name 'ml-paper-implementations'
-        git config --global user.email 'ml-paper-implementations@tanjeffreyz.github.io'
+        git config --global user.name 'planit-backend'
+        git config --global user.email 'planit-backend@tanjeffreyz.github.io'
         git add *
-        git commit -m 'Updated webpage'
+        git commit -m 'Updated assignments'
         git push
-        git push -f origin main:github-pages
