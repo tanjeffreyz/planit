@@ -2,4 +2,4 @@
     <h1>Planit Backend</h1>
 </div>
 
-Python backend for Planit that periodically compiles assignment information
+Python backend for Planit that periodically compiles and stores assignment information.
