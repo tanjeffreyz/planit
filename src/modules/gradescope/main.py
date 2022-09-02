@@ -1,4 +1,5 @@
 import dateparser
+from src.common import utils
 from src.modules.interfaces import Module
 
 
@@ -35,7 +36,7 @@ class Gradescope(Module):
             if login_response.status_code == 200:
                 self.initialized = True
 
-    def _main(self, assignments):
+    def _main(self, assignments: list):
         dashboard_res = self.session.get(Gradescope.ROOT + '/account')
         dashboard = Module.parse_html(dashboard_res.text)
 
@@ -51,10 +52,10 @@ class Gradescope(Module):
             for row in assignment_table.find_all('tr', {'role': 'row'}):
                 title = Gradescope._get_assignment_title(row)
                 date_string = Gradescope._get_assignment_due_date(row)
-                due_date = dateparser.parse(date_string)
+                due_date = str(dateparser.parse(date_string))
                 status = Gradescope._get_assignment_status(row)
-                done = (status != 'No Submission')
-                print(course_name, status, due_date)
+                submitted = (status != 'No Submission')
+                assignments.append(utils.get_assignment_dict(title, course_name, due_date, submitted=submitted))
 
     @staticmethod
     def _get_assignment_title(row):

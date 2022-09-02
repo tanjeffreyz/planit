@@ -1,0 +1,74 @@
+[
+  {
+    "title": "hw0",
+    "course": "COMPSCI 164-LEC-001",
+    "dueDate": "2022-09-01 21:00:00",
+    "submitted": true
+  },
+  {
+    "title": "hw1",
+    "course": "COMPSCI 164-LEC-001",
+    "dueDate": "2022-09-15 21:00:00",
+    "submitted": false
+  },
+  {
+    "title": "Homework 1",
+    "course": "CS 161",
+    "dueDate": "2022-09-09 23:59:00",
+    "submitted": true
+  },
+  {
+    "title": "Lab 01",
+    "course": "Data 100",
+    "dueDate": "2022-08-30 23:59:00",
+    "submitted": true
+  },
+  {
+    "title": "Quick Check 1",
+    "course": "Data 100",
+    "dueDate": "2022-08-29 23:59:00",
+    "submitted": true
+  },
+  {
+    "title": "Homework 01",
+    "course": "Data 100",
+    "dueDate": "2022-09-01 23:59:00",
+    "submitted": true
+  },
+  {
+    "title": "Quick Check 2",
+    "course": "Data 100",
+    "dueDate": "2022-09-05 23:59:00",
+    "submitted": false
+  },
+  {
+    "title": "Homework 01",
+    "course": "Data 140",
+    "dueDate": "2022-08-29 23:59:00",
+    "submitted": true
+  },
+  {
+    "title": "Lab 01",
+    "course": "Data 140",
+    "dueDate": "2022-09-06 23:59:00",
+    "submitted": false
+  },
+  {
+    "title": "Homework 02",
+    "course": "Data 140",
+    "dueDate": "2022-09-06 12:00:00",
+    "submitted": false
+  },
+  {
+    "title": "Homework due 8/30",
+    "course": "Math 54 DIS 202 & DIS 223",
+    "dueDate": "2022-08-30 17:20:00",
+    "submitted": false
+  },
+  {
+    "title": "Homework due 9/6",
+    "course": "Math 54 DIS 202 & DIS 223",
+    "dueDate": "2022-09-06 17:00:00",
+    "submitted": false
+  }
+]
