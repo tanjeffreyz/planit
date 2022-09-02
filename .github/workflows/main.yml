@@ -41,5 +41,5 @@ jobs:
         git config --global user.name 'planit-backend'
         git config --global user.email 'planit-backend@tanjeffreyz.github.io'
         git add *
-        git commit -m 'Updated assignments'
+        git commit -m 'Updated assignments' || true
         git push
