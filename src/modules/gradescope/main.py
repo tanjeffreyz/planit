@@ -4,7 +4,7 @@ from src.modules.interfaces import Module
 class Gradescope(Module):
     ROOT = 'https://www.gradescope.com'
 
-    def login(self):
+    def init(self):
         # Extract authentication token from login page
         login_page_res = self.session.get(Gradescope.ROOT)
         login_page = Module.parse_html(login_page_res.text)
@@ -67,6 +67,5 @@ class Gradescope(Module):
 if __name__ == '__main__':
     arr = []
     test = Gradescope()
-    test.login()
+    test.init()
     test.run(arr)
-    test.finish()
