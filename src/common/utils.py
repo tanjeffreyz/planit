@@ -6,11 +6,12 @@ OUTPUTS_DIR = 'output'
 JSON_EXT = '.json'
 
 
-def get_assignment_dict(title, course, due_date, submitted=False):
+def get_assignment_dict(title, course, due_date, link, submitted=False):
     return {
         'title': title,
         'course': course,
         'dueDate': due_date,
+        'link': link,
         'submitted': submitted
     }
 

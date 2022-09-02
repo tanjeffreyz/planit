@@ -54,8 +54,17 @@ class Gradescope(Module):
                 date_string = Gradescope._get_assignment_due_date(row)
                 due_date = str(dateparser.parse(date_string))
                 status = Gradescope._get_assignment_status(row)
+                link = Gradescope._get_assignment_link(row, course_link)
                 submitted = (status != 'No Submission')
-                assignments.append(utils.get_assignment_dict(title, course_name, due_date, submitted=submitted))
+
+                # Add to assignments list
+                assignments.append(utils.get_assignment_dict(
+                    title,
+                    course_name,
+                    due_date,
+                    link,
+                    submitted=submitted
+                ))
 
     @staticmethod
     def _get_assignment_title(row):
@@ -80,6 +89,17 @@ class Gradescope(Module):
         """Returns the title of an assignment given its row in the table."""
 
         return row.find('div', {'class': 'submissionStatus--text'}).text
+
+    @staticmethod
+    def _get_assignment_link(row, course_link):
+        """Returns a link to the assignment."""
+
+        primary_link = row.find('th', {'class': 'table--primaryLink'})
+        anchor = primary_link.find('a')
+        link = course_link
+        if anchor is not None:
+            link = anchor.get('href')
+        return Gradescope.ROOT + link
 
 
 if __name__ == '__main__':
