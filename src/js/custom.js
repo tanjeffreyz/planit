@@ -1,19 +1,28 @@
 const calendars = document.getElementById('calendars');
+const barWidth = 45;
+const xAxisWidth = 39;
+const colors = [
+  [255, 26, 104],
+  [54, 162, 235],
+  [255, 206, 86],
+  [75, 192, 192],
+  [153, 102, 255],
+  [255, 159, 64],
+  [0, 0, 0]
+];
 
-for (let course in assignments) {
-  const entries = assignments[course];
+for (const [i, courseName] of Object.entries(Object.keys(assignments))) {
+  const entries = assignments[courseName];
 
   const div = document.createElement('div');
   div.className = 'mb-5';
   
   const courseTitle = document.createElement('p');
-  courseTitle.textContent = course;
+  courseTitle.textContent = courseName;
   courseTitle.style.fontSize = '1.25rem';
   div.appendChild(courseTitle);
 
   const calendarContainer = document.createElement('div');
-  const barWidth = 45;
-  const xAxisWidth = 39;
   calendarContainer.style.height = `${entries.length * barWidth + xAxisWidth}px`;
 
   const canvas = document.createElement('canvas');
@@ -31,20 +40,14 @@ for (let course in assignments) {
   }
   
   // Display barchart of assignments
+  const color = colors[i % colors.length];
   const data = {
     labels: titles,
     datasets: [{
       label: 'Weekly Sales',
       data: dueDates,
-      backgroundColor: [
-        'rgba(255, 26, 104, 0.2)',
-      //   'rgba(54, 162, 235, 0.2)',
-      //   'rgba(255, 206, 86, 0.2)',
-      //   'rgba(75, 192, 192, 0.2)',
-      //   'rgba(153, 102, 255, 0.2)',
-      //   'rgba(255, 159, 64, 0.2)',
-      //   'rgba(0, 0, 0, 0.2)'
-      ],
+      backgroundColor: [`rgba(${color[0]}, ${color[1]}, ${color[2]}, 0.2)`],
+      borderColor: [`rgba(${color[0]}, ${color[1]}, ${color[2]}, 1.0)`],
       // borderColor: [
       //   'rgba(255, 26, 104, 1)',
       //   'rgba(54, 162, 235, 1)',
