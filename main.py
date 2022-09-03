@@ -5,12 +5,12 @@ from src.modules import *
 
 
 # Compile assignments into a list
-courses = {}
+assignments = {}
 modules = [
     Gradescope()
 ]
 for module in modules:
-    module.run(courses)
+    module.run(assignments)
 
 # Update GitHub workflow with all environment variables
 with open(os.path.join('resources', 'workflow_template.yml'), 'r') as file:
@@ -24,4 +24,4 @@ with open(os.path.join('.github', 'workflows', 'main.yml'), 'w') as file:
     file.write(workflow)
 
 # Save the list to a JavaScript file for Planit to import later
-utils.save_data('assignments', courses)
+utils.save_data('assignments', assignments)
