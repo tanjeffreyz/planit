@@ -1,0 +1,5 @@
+.section:before {
+  height: 75px;
+  content: "";
+  display: block;
+}
