@@ -3,7 +3,6 @@ import json
 
 
 DATA_DIR = 'data'
-JSON_EXT = '.json'
 
 
 def get_assignment_dict(title, course, due_date, link, submitted=False):
@@ -16,11 +15,9 @@ def get_assignment_dict(title, course, due_date, link, submitted=False):
     }
 
 
-def save_output(obj, path: str):
+def save_data(var_name, obj):
     if not os.path.exists(DATA_DIR):
         os.makedirs(DATA_DIR)
-    if not path.endswith(JSON_EXT):
-        path += JSON_EXT
-    target = os.path.join(DATA_DIR, path)
+    target = os.path.join(DATA_DIR, var_name + '.js')
     with open(target, 'w') as file:
-        json.dump(obj, file, indent=2)
+        file.write(f'{var_name} = {json.dumps(obj, indent=2)};')

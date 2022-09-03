@@ -36,14 +36,16 @@ class Gradescope(Module):
             if login_response.status_code == 200:
                 self.initialized = True
 
-    def _main(self, assignments: list):
+    def _main(self, courses: list):
         dashboard_res = self.session.get(Gradescope.ROOT + '/account')
         dashboard = Module.parse_html(dashboard_res.text)
 
-        courses = dashboard.find('div', {'class': 'courseList--coursesForTerm'})
-        for course in courses.find_all('a', {'class': 'courseBox'}):
-            course_name = course.find('h3', {'class': 'courseBox--shortname'}).text
-            course_link = course.get('href')
+        course_list = dashboard.find('div', {'class': 'courseList--coursesForTerm'})
+        for course_entry in course_list.find_all('a', {'class': 'courseBox'}):
+            course_name = course_entry.find('h3', {'class': 'courseBox--shortname'}).text
+            if course_name not in courses:
+                courses[course_name] = []
+            course_link = course_entry.get('href')
 
             # Retrieve assignment information
             course_dashboard_res = self.session.get(Gradescope.ROOT + course_link)
@@ -58,7 +60,7 @@ class Gradescope(Module):
                 submitted = (status != 'No Submission')
 
                 # Add to assignments list
-                assignments.append(utils.get_assignment_dict(
+                courses[course_name].append(utils.get_assignment_dict(
                     title,
                     course_name,
                     due_date,
