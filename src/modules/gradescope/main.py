@@ -1,4 +1,3 @@
-import dateparser
 from src.common import utils
 from src.modules.interfaces import Module
 
@@ -54,7 +53,6 @@ class Gradescope(Module):
             for row in assignment_table.find_all('tr', {'role': 'row'}):
                 title = Gradescope._get_assignment_title(row)
                 date_string = Gradescope._get_assignment_due_date(row)
-                due_date = str(dateparser.parse(date_string))
                 status = Gradescope._get_assignment_status(row)
                 link = Gradescope._get_assignment_link(row, course_link)
                 submitted = (status != 'No Submission')
@@ -63,7 +61,7 @@ class Gradescope(Module):
                 assignments[course_name].append(utils.get_assignment_dict(
                     title,
                     course_name,
-                    due_date,
+                    date_string,
                     link,
                     submitted=submitted
                 ))

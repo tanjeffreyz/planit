@@ -1,5 +1,6 @@
 import os
 import json
+import dateparser
 
 
 DATA_DIR = 'data'
@@ -9,7 +10,7 @@ def get_assignment_dict(title, course, due_date, link, submitted=False):
     return {
         'title': title,
         'course': course,
-        'dueDate': due_date,
+        'dueDate': dateparser.parse(due_date).isoformat(),
         'link': link,
         'submitted': submitted
     }
