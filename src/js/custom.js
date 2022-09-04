@@ -44,7 +44,7 @@ function main(numDays, reference) {
       const daysFromReference = msToDays(dueDate - reference);
       if (daysFromReference > 0) {
         titles.push(entry.title);
-        dueDates.push(Math.min(daysFromReference, numDays));
+        dueDates.push(daysFromReference);
         if (!entry.submitted) {
           if (daysFromReference > numDays) {
             // No border for assignments that extend past display window
