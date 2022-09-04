@@ -41,8 +41,29 @@ let reference = today;
 ////////////////////////////
 //    Helper Functions    //
 ////////////////////////////
-const msToDays = (ms) => {
+function msToDays(ms) {
   return ms / (1000 * 60 * 60 * 24);
+}
+
+function formatDaysHours(days, hours) {
+  const plural = (value) => (value !== 1 ? 's' : '');
+  let result = '';
+  if (days > 0) {
+    result += `${days} day${plural(days)}`;
+  }
+  if (hours > 0) {
+    if (days > 0) {
+      result += ', ';
+    }
+    if (hours >= 1) {
+      const value = Math.floor(hours);
+      result += `${value} hour${plural(value)}`;
+    } else {
+      const value = Math.floor(60 * hours);
+      result += `${value} minute${plural(value)}`;
+    }
+  }
+  return result;
 }
 
 
@@ -184,23 +205,7 @@ function main() {
                 if (days <= 0 && hours <= 0) {
                   return 'Due date has passed';
                 } else {
-                  let result = '';
-                  if (days > 0) {
-                    result += `${days} days`;
-                  }
-                  if (hours > 0) {
-                    if (days > 0) {
-                      result += ', ';
-                    }
-                    if (hours >= 1) {
-                      const value = Math.floor(hours);
-                      result += `${value} hour${value !== 1 ? 's' : ''}`;
-                    } else {
-                      const value = Math.floor(60 * hours);
-                      result += `${value} minute${value !== 1 ? 's' : ''}`;
-                    }
-                  }
-                  return result + ' left';
+                  return formatDaysHours(days, hours) + ' left';
                 }
               },
               afterLabel: (context) => {
