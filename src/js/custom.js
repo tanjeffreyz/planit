@@ -183,9 +183,11 @@ function main(numDays, reference) {
                       result += ', ';
                     }
                     if (hours >= 1) {
-                      result += `${Math.floor(hours)} hours`;
+                      const value = Math.floor(hours);
+                      result += `${value} hour${value !== 1 ? 's' : ''}`;
                     } else {
-                      result += `${Math.floor(60 * hours)} minutes`;
+                      const value = Math.floor(60 * hours);
+                      result += `${value} minute${value !== 1 ? 's' : ''}`;
                     }
                   }
                   return result + ' left';
