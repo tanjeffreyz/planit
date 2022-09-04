@@ -231,6 +231,19 @@ function main() {
       canvas,
       config
     );
+
+    // Visit link to assignment on click
+    canvas.onclick = (e) => {
+      const options = {
+        intersect: true, 
+        axis: 'y'
+      };
+      const points = chart.getElementsAtEventForMode(e, 'nearest', options, true);
+      if (points.length > 0) {
+        const point = points[0];
+        window.open(presentEntries[point.index].link, '_blank').focus();
+      }
+    };
     charts.push(chart);
     // console.log(canvas.clientHeight - chart.chartArea.height);     // Calculate height of x-axis labels
   }
