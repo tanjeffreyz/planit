@@ -23,10 +23,25 @@ const msToDays = (ms) => {
 //    Main Function   //
 ////////////////////////
 function main(numDays, reference) {
+  // Clear previous calendars
   calendars.innerHTML = '';
+
+  // Display current time
+  const now = new Date();
+  const dateString = now.toLocaleDateString('en-us', {
+    weekday: 'short',
+    month: 'short',
+    day: 'numeric'
+  });
+  const timeString = now.toLocaleTimeString('en-us', {
+    hour: 'numeric',
+    minute: '2-digit'
+  });
+  document.getElementById('now').textContent = `${dateString} - ${timeString}`;
+
+  // Display assignments
   for (const [i, courseName] of Object.entries(Object.keys(assignments))) {
-    // Get assignment list for this course
-    const entries = assignments[courseName];
+    const entries = assignments[courseName];    // Get assignment list for this course
 
     // Prepare data
     const presentEntries = [];    // List of assignments that are due on or after today
@@ -138,12 +153,12 @@ function main(numDays, reference) {
           annotation: {
             annotations: [
               {
-                type: "line",
-                mode: "vertical",
-                scaleID: "x",
+                type: 'line',
+                mode: 'vertical',
+                scaleID: 'x',
                 value: msToDays((new Date()) - reference),
                 borderWidth: 1,
-                borderColor: "rgb(255, 0, 0, 0.5)"
+                borderColor: 'rgb(255, 0, 0, 0.5)'
               }
             ]
           },
