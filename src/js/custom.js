@@ -6,8 +6,7 @@ const colors = [
   [255, 206, 86],
   [75, 192, 192],
   [153, 102, 255],
-  [255, 159, 64],
-  [0, 0, 0]
+  [255, 159, 64]
 ];
 
 const calendars = document.getElementById('calendars');
