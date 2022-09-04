@@ -8,3 +8,9 @@ Planit is an assignment tracker for students that compiles due dates into an int
 <div align="center">
     <h2>Setup Instructions</h2>
 </div>
+
+<ol>
+    <li>
+        Click <img src="src/resources/use_this_template.png" height="18px" /> at the top of this page, which should bring up the following prompt:
+    </li>
+</ol>
