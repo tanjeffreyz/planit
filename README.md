@@ -1,4 +1,5 @@
 <div align="center">
+    <img src="src/resources/planit_logo.png" height="50px" />
     <h1>Planit</h1>
 </div>
 
