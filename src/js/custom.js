@@ -120,6 +120,18 @@ function main(numDays, reference) {
         plugins: {
           legend: {
             display: false
+          },
+          annotation: {
+            annotations: [
+              {
+                type: "line",
+                mode: "vertical",
+                scaleID: "x",
+                value: msToDays((new Date()) - reference),
+                borderWidth: 1,
+                borderColor: "red"
+              }
+            ]
           }
         }
       }
