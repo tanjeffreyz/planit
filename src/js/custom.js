@@ -10,6 +10,7 @@ const colors = [
 ];
 
 const calendars = document.getElementById('calendars');
+const charts = [];
 
 ////////////////////////////
 //    Helper Functions    //
@@ -23,23 +24,6 @@ const msToDays = (ms) => {
 //    Main Function   //
 ////////////////////////
 function main(numDays, reference) {
-  // Clear previous calendars
-  calendars.innerHTML = '';
-
-  // Display current time
-  const now = new Date();
-  const dateString = now.toLocaleDateString('en-us', {
-    weekday: 'short',
-    month: 'short',
-    day: 'numeric'
-  });
-  const timeString = now.toLocaleTimeString('en-us', {
-    hour: 'numeric',
-    minute: '2-digit'
-  });
-  document.getElementById('now').textContent = `${dateString} - ${timeString}`;
-
-  // Display assignments
   for (const [i, courseName] of Object.entries(Object.keys(assignments))) {
     const entries = assignments[courseName];    // Get assignment list for this course
 
@@ -216,8 +200,33 @@ function main(numDays, reference) {
       canvas,
       config
     );
+    charts.push(chart);
     // console.log(canvas.clientHeight - chart.chartArea.height);     // Calculate height of x-axis labels
   }
+}
+
+
+function refresh() {
+  // Display current time
+  const now = new Date();
+  const dateString = now.toLocaleDateString('en-us', {
+    weekday: 'short',
+    month: 'short',
+    day: 'numeric'
+  });
+  const timeString = now.toLocaleTimeString('en-us', {
+    hour: 'numeric',
+    minute: '2-digit'
+  });
+  document.getElementById('now').textContent = `${dateString} - ${timeString}`;
+
+  // Refresh charts
+  for (const chart of charts) {
+    chart.update();
+  }
+
+  console.log('Refreshed');
+  setTimeout(refresh, 1000);
 }
 
 
@@ -241,5 +250,6 @@ today.setHours(0);
 today.setMinutes(0);
 today.setSeconds(0);
 
-// Run main function
+// Generate charts and periodically refresh
 main(7, today);
+refresh();
