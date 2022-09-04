@@ -153,6 +153,7 @@ function main() {
               drawBorder: false
             },
             ticks: {
+              autoSkip: false,
               align: 'end',
               callback: (val, i) => {
                 const date = new Date(today.getTime());
