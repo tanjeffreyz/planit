@@ -30,6 +30,7 @@ function main(numDays, reference) {
     const entries = assignments[courseName];
 
     // Prepare data
+    const presentEntries = [];    // List of assignments that are due on or after today
     const titles = [];
     const dueDates = [];
     const backgroundColors = [];
@@ -43,6 +44,7 @@ function main(numDays, reference) {
       const dueDate = new Date(entry.dueDate);
       const daysFromReference = msToDays(dueDate - reference);
       if (daysFromReference > 0) {
+        presentEntries.push(entry);
         titles.push(entry.title);
         dueDates.push(daysFromReference);
         if (!entry.submitted) {
@@ -101,10 +103,23 @@ function main(numDays, reference) {
         indexAxis: 'y',
         scales: {
           x: {
+            max: numDays,
             grid: {
               drawBorder: false
             },
-            max: numDays
+            ticks: {
+              align: 'end',
+              callback: (val, i) => {
+                const date = new Date(today.getTime());
+                date.setHours(24 * (i - 1));
+                const dateString = date.toLocaleDateString('en-us', {
+                  weekday: 'short',
+                  month: 'short',
+                  day: 'numeric'
+                });
+                return i > 0 ? dateString : '';
+              }
+            }
           },
           y: {
             beginAtZero: true,
@@ -140,7 +155,7 @@ function main(numDays, reference) {
                 return `${Math.round(days * 10) / 10} days remaining`;
               },
               afterLabel: (context) => {
-                const date = new Date(entries[context.dataIndex].dueDate);
+                const date = new Date(presentEntries[context.dataIndex].dueDate);
                 const dateString = date.toLocaleDateString('en-us', {
                   weekday: 'short',
                   month: 'short',
