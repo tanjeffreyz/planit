@@ -152,7 +152,29 @@ function main(numDays, reference) {
               label: (context) => {
                 const date = new Date(presentEntries[context.dataIndex].dueDate);
                 const diff = msToDays(date - (new Date()));
-                return `${Math.round(diff * 10) / 10} days remaining`;
+                const days = Math.floor(diff);
+                const hours = 24 * (diff - days);
+
+                // Display time remaining
+                if (days <= 0 && hours <= 0) {
+                  return 'Due date has passed';
+                } else {
+                  let result = '';
+                  if (days > 0) {
+                    result += `${days} days`;
+                  }
+                  if (hours > 0) {
+                    if (days > 0) {
+                      result += ', ';
+                    }
+                    if (hours >= 1) {
+                      result += `${Math.floor(hours)} hours`;
+                    } else {
+                      result += `${Math.floor(60 * hours)} minutes`;
+                    }
+                  }
+                  return result + ' left';
+                }
               },
               afterLabel: (context) => {
                 const date = new Date(presentEntries[context.dataIndex].dueDate);
