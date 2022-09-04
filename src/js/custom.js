@@ -242,8 +242,7 @@ if (day !== 1) {
 }
 startOfWeek.setMinutes(0);
 startOfWeek.setSeconds(0);
-console.log(startOfWeek);
-console.log(assignments);
+console.log('Start of this week:', startOfWeek);
 
 const today = new Date();     // Today at 12:00 AM
 today.setHours(0);
