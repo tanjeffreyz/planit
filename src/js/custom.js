@@ -3,6 +3,7 @@
 /////////////////////
 const BAR_WIDTH = 45;
 const X_AXIS_HEIGHT = 39;
+const Y_AXIS_WIDTH = 12;
 const COLORS = [
   [255, 26, 104],
   [54, 162, 235],
@@ -119,6 +120,7 @@ function main() {
 
     const calendarContainer = document.createElement('div');
     calendarContainer.style.height = `${presentEntries.length * BAR_WIDTH + X_AXIS_HEIGHT}px`;
+    calendarContainer.style.marginRight = `${Y_AXIS_WIDTH}px`;
 
     const canvas = document.createElement('canvas');
     calendarContainer.appendChild(canvas);
