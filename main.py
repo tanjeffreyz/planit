@@ -13,7 +13,7 @@ for module in modules:
     module.run(assignments)
 
 # Update GitHub workflow with all environment variables
-with open(os.path.join('resources', 'workflow_template.yml'), 'r') as file:
+with open(os.path.join('src', 'resources', 'workflow_template.yml'), 'r') as file:
     template = file.read()
     pairs = [x + ': ${{ secrets.' + x + ' }}' for x in Module.envs]
     workflow = template.replace(
