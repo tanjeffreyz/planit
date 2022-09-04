@@ -1,5 +1,28 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .section:before {
   height: 75px;
   content: "";
   display: block;
+}
+
+/* Custom Scroll Bars */
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #dadada;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #969696;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #969696;
 }
