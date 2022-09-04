@@ -132,6 +132,27 @@ function main(numDays, reference) {
                 borderColor: "rgb(255, 0, 0, 0.5)"
               }
             ]
+          },
+          tooltip: {
+            callbacks: {
+              label: (context) => {
+                const days = context.raw;
+                return `${Math.round(days * 10) / 10} days remaining`;
+              },
+              afterLabel: (context) => {
+                const date = new Date(entries[context.dataIndex].dueDate);
+                const dateString = date.toLocaleDateString('en-us', {
+                  weekday: 'short',
+                  month: 'short',
+                  day: 'numeric'
+                });
+                const timeString = date.toLocaleTimeString('en-us', {
+                  hour: 'numeric',
+                  minute: '2-digit'
+                });
+                return `${dateString} @ ${timeString}`;
+              }
+            }
           }
         }
       }
