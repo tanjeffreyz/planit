@@ -129,7 +129,7 @@ function main(numDays, reference) {
                 scaleID: "x",
                 value: msToDays((new Date()) - reference),
                 borderWidth: 1,
-                borderColor: "red"
+                borderColor: "rgb(255, 0, 0, 0.5)"
               }
             ]
           }
