@@ -151,8 +151,9 @@ function main(numDays, reference) {
           tooltip: {
             callbacks: {
               label: (context) => {
-                const days = context.raw;
-                return `${Math.round(days * 10) / 10} days remaining`;
+                const date = new Date(presentEntries[context.dataIndex].dueDate);
+                const diff = msToDays(date - (new Date()));
+                return `${Math.round(diff * 10) / 10} days remaining`;
               },
               afterLabel: (context) => {
                 const date = new Date(presentEntries[context.dataIndex].dueDate);
