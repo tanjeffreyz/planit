@@ -8,21 +8,3 @@ html, body {
   content: "";
   display: block;
 }
-
-/* Custom Scroll Bars */
-body::-webkit-scrollbar {
-    width: 10px;
-}
-
-body::-webkit-scrollbar-track {
-    background: #e5e5e5;
-}
-
-body::-webkit-scrollbar-thumb {
-    background: #c1c1c1;
-    border-radius: 5px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: #aeaeae;
-}
