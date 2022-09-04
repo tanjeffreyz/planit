@@ -20,6 +20,6 @@ Planit is an assignment tracker for students that compiles due dates into an int
         </div>
     </li>
     <li>
-        Enter a name for the new repository. Keep in mind that the repository's name will be used as the URL for the webpage, so it's best to keep it short and memorable, like "planit". Then, click <a href="#"><img src="src/resources/create_repo_from_template.png" height="20px" /></a>
+        Enter a name for the new repository. Keep in mind that the repository's name will be used in the URL for your personal <b>Planit</b> webpage, so it's best to keep it short and memorable, like "planit". Then, click <a href="#"><img src="src/resources/create_repo_from_template.png" height="20px" /></a>
     </li>
 </ol>
