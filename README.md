@@ -11,6 +11,13 @@ Planit is an assignment tracker for students that compiles due dates into an int
 
 <ol>
     <li>
+        Log into GitHub or <a href="https://github.com/join"><b>create a new GitHub account</b></a>
+    </li>
+    <li>
         Click <img src="src/resources/use_this_template.png" height="20px" /> at the top of this page, which should bring up the following prompt:
+        <div align="center">
+            <img src="src/resources/generate_prompt.png" />
+        </div>
+        Enter a name for the new repository. Keep in mind that the repository's name will be used as the URL for the webpage, so it's best to keep it short and memorable, like "planit". Then, click <img src="src/resources/create_repo_from_template.png" height="20px" />
     </li>
 </ol>
