@@ -33,8 +33,7 @@ jobs:
         python --version
         python main.py
       env:
-        GRADESCOPE_USER: ${{ secrets.GRADESCOPE_USER }}
-        GRADESCOPE_PASSWORD: ${{ secrets.GRADESCOPE_PASSWORD }}
+        
     
     - name: Commit new outputs
       run: |

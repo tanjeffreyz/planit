@@ -19,8 +19,7 @@ class Module:
             Module.envs.append(user_env)
             Module.envs.append(password_env)
             self.valid = True
-        except KeyError as e:
-            print(f"Invalid environment variable {e}")
+        except KeyError:
             self.valid = False
 
         self.session = requests.Session()
