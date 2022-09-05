@@ -31,7 +31,7 @@ Planit is an assignment tracker for students that compiles due dates into an int
         <br><br>
         <table align="center">
             <tr><th align="center">Username</th><th align="center">Password</th></tr>
-            <tr align="center"><td>GRADESCOPE_USER</td><td>GRADESCOPE_PASSWORD</td></tr>
+            __SECRET_NAMES__
         </table>
     </li>
 </ol>
