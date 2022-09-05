@@ -44,7 +44,7 @@ For the secrets' names, you may only use the ones listed below.
 https://github.com/YOUR_USERNAME/REPOSITORY_NAME/settings/pages
 ```
 
-7. In the drop down under "Branch", select "github-pages":
+7. In the dropdown menu under "Branch", select "github-pages":
 <div align="center">
     <img src="docs/github_pages_prompt.png" width="600px" />
 </div>
