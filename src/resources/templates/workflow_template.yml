@@ -24,7 +24,7 @@ jobs:
         git config --global pull.rebase false
         git remote add planit 'https://github.com/tanjeffreyz/planit.git'
         git pull planit main -X theirs --allow-unrelated-histories --squash
-        git commit --no-edit
+        git commit --no-edit || true
     
     - name: Set up Python 3.10
       uses: actions/setup-python@v3
