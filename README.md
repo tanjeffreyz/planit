@@ -24,10 +24,10 @@ Planit is an assignment tracker for students that compiles due dates into an int
         <pre>https://github.com/{your_username}/{repository_name}/settings/secrets/actions</pre>
     </li>
     <li>
-        Create two new GitHub secrets (one for your username, one for your password) for each homework platform you use. 
+        For each homework platform you use, create two new GitHub secrets: one for your username, one for your password. 
         A new secret can be created by clicking <a href="#"><img src="docs/new_repo_secret.png" height="20px" /></a>. 
         For the secrets' names, you may only use the ones listed below. 
-        <a href="https://docs.github.com/en/actions/security-guides/encrypted-secrets">Click here to learn more about GitHub secrets</a>.
+        <a href="https://docs.github.com/en/actions/security-guides/encrypted-secrets"><b>Click here to learn more about GitHub secrets</b></a>.
         <br><br>
         <table align="center">
             <tr><th align="center">Username</th><th align="center">Password</th></tr>
