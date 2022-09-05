@@ -29,10 +29,12 @@ Then, click <a href="#"><img src="docs/create_repo_from_template.png" height="20
 https://github.com/YOUR_USERNAME/REPOSITORY_NAME/settings/secrets/actions
 ```
 
-5. For each homework platform you use, create two new GitHub secrets: one for your username, one for your password. 
-A new secret can be created by clicking <a href="#"><img src="docs/new_repo_secret.png" height="20px" /></a>. 
-<b>For the secrets' names, you may only use the ones listed below.</b>
-   (<a href="https://docs.github.com/en/actions/security-guides/encrypted-secrets">Click here to learn more about GitHub secrets</a>)
+5. For each homework platform you use, create two new 
+<a href="https://docs.github.com/en/actions/security-guides/encrypted-secrets">GitHub secrets</a>: 
+one for your username, one for your password. A new secret can be created by clicking 
+<a href="#"><img src="docs/new_repo_secret.png" height="20px" /></a>. 
+<b>For the secret's "Name" field, you may only use the names listed below.</b>
+In the "Secret" field, enter either your username or password.
 
 <table align="center">
     <tr><th align="center">Username</th><th align="center">Password</th></tr>
