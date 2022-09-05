@@ -7,7 +7,7 @@ Planit is an assignment tracker for students that compiles due dates into an int
 some online homework platforms such as Gradescope don't have an API for students, web scraping is required to retrieve 
 information about assignments. **HTTPs requests** are used alongside `BeautifulSoup` to perform this web scraping, 
 which is automatically executed many times a day using **GitHub Actions**.
-
+ 
 <div align="center">
     <a href="https://tanjeffreyz.github.io/planit"><b>Click here to see an example</b></a>
 </div>
