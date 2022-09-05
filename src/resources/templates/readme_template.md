@@ -16,7 +16,9 @@ which is automatically executed many times a day using **GitHub Actions**.
 
 2. Click <a href="#"><img src="docs/use_this_template.png" height="20px" /></a> at the top of this page, 
 which should open the following prompt. Make sure "Include all branches" is checked:
-<div><img align="center" src="docs/generate_prompt.png" width="600px" /></div>
+<div align="center">
+    <img src="docs/generate_prompt.png" width="600px" />
+</div>
 
 3. Enter a name for the new repository. Keep in mind that this name will be used in the URL for your personal 
 <b>Planit</b> webpage, so it's best to keep it short and memorable, like "planit". 
