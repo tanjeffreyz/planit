@@ -88,7 +88,10 @@ class Gradescope(Module):
     def _get_assignment_status(row):
         """Returns the title of an assignment given its row in the table."""
 
-        return row.find('div', {'class': 'submissionStatus--text'}).text
+        status = row.find('div', {'class': 'submissionStatus--text'})
+        if status is None:
+            status = row.find('div', {'class': 'submissionStatus--score'})
+        return status.text
 
     @staticmethod
     def _get_assignment_link(row, course_link):

@@ -9,9 +9,12 @@ information about assignments. **HTTPs requests** are used alongside `BeautifulS
 which is automatically executed many times a day using **GitHub Actions**.
 
 <div align="center">
-    <h2>Setup Instructions</h2>
+    <a href="https://tanjeffreyz.github.io/planit"><b>Click here to see an example</b></a>
 </div>
+<br>
 
+
+## Setup Instructions
 1. Log into GitHub or <a href="https://github.com/join"><b>create a new GitHub account</b></a>.
 
 2. Click <a href="#"><img src="docs/use_this_template.png" height="20px" /></a> at the top of this page, 
