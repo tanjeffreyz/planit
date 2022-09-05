@@ -30,7 +30,7 @@ Planit is an assignment tracker for students that compiles due dates into an int
         <a href="https://docs.github.com/en/actions/security-guides/encrypted-secrets">Click here to learn more about GitHub secrets</a>.
         <br><br>
         <table align="center">
-            <tr align="center"><th>Username</th><th>Password</th></tr>
+            <tr><th align="center">Username</th><th align="center">Password</th></tr>
             <tr align="center"><td>GRADESCOPE_USER</td><td>GRADESCOPE_PASSWORD</td></tr>
         </table>
     </li>
