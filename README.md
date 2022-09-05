@@ -14,12 +14,12 @@ Planit is an assignment tracker for students that compiles due dates into an int
         Log into GitHub or <a href="https://github.com/join"><b>create a new GitHub account</b></a>.
     </li>
     <li>
-        Click <a href=""><img src="docs/use_this_template.png" height="20px" /></a> at the top of this page, which should open a prompt in a new page.
+        Click <a href="#"><img src="docs/use_this_template.png" height="20px" /></a> at the top of this page, which should open a prompt in a new page.
     </li>
     <li>
         Enter a name for the new repository. Keep in mind that this name will be used in the URL for your personal <b>Planit</b> webpage, 
         so it's best to keep it short and memorable, like "planit". 
-        Then, click <a href=""><img src="docs/create_repo_from_template.png" height="20px" /></a>.
+        Then, click <a href="#"><img src="docs/create_repo_from_template.png" height="20px" /></a>.
     </li>
     <li>
         Visit the link below by filling in your GitHub username and the new repository's name:
@@ -27,7 +27,7 @@ Planit is an assignment tracker for students that compiles due dates into an int
     </li>
     <li>
         For each homework platform you use, create two new GitHub secrets: one for your username, one for your password. 
-        A new secret can be created by clicking <a href=""><img src="docs/new_repo_secret.png" height="20px" /></a>. 
+        A new secret can be created by clicking <a href="#"><img src="docs/new_repo_secret.png" height="20px" /></a>. 
         For the secrets' names, you may only use the ones listed below. 
         <a href="https://docs.github.com/en/actions/security-guides/encrypted-secrets"><b>Click here to learn more about GitHub secrets</b></a>.
         <br><br>
