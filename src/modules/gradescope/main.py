@@ -32,7 +32,8 @@ class Gradescope(Module):
                 Gradescope.ROOT + '/login',
                 params=login_payload
             )
-            if login_response.status_code == 200:
+            history = login_response.history
+            if len(history) > 0 and history[0].status_code == 302:
                 self.initialized = True
 
     def _main(self, assignments: list):
