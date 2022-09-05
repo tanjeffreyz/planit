@@ -23,7 +23,7 @@ jobs:
         git config --global user.email 'planit@tanjeffreyz.github.io'
         git config --global pull.rebase false
         git remote add planit 'https://github.com/tanjeffreyz/planit.git'
-        git pull planit main -X theirs --allow-unrelated-histories --no-edit
+        git pull planit main -X theirs --allow-unrelated-histories --squash --no-edit
     
     - name: Set up Python 3.10
       uses: actions/setup-python@v3
