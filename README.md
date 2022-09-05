@@ -3,7 +3,10 @@
     <h1>Planit</h1>
 </div>
 
-Planit is an assignment tracker for students that compiles due dates into an interactive, minimalist calendar. Because some online homework platforms such as Gradescope don't have an API for students, web scraping is required to retrieve information about assignments. **HTTPs requests** are used alongside `BeautifulSoup` to perform this web scraping, which is automatically executed many times a day using **GitHub Actions**.
+Planit is an assignment tracker for students that compiles due dates into an interactive, minimalist calendar. Because 
+some online homework platforms such as Gradescope don't have an API for students, web scraping is required to retrieve 
+information about assignments. **HTTPs requests** are used alongside `BeautifulSoup` to perform this web scraping, 
+which is automatically executed many times a day using **GitHub Actions**.
 
 <div align="center">
     <h2>Setup Instructions</h2>
@@ -14,15 +17,16 @@ Planit is an assignment tracker for students that compiles due dates into an int
         Log into GitHub or <a href="https://github.com/join"><b>create a new GitHub account</b></a>.
     </li>
     <li>
-        Click <a href="#"><img src="docs/use_this_template.png" height="20px" /></a> at the top of this page, which should open a prompt in a new page.
+        Click <a href="#"><img src="docs/use_this_template.png" height="20px" /></a> at the top of this page, 
+        which should open a prompt in a new page.
     </li>
     <li>
-        Enter a name for the new repository. Keep in mind that this name will be used in the URL for your personal <b>Planit</b> webpage, 
-        so it's best to keep it short and memorable, like "planit". 
+        Enter a name for the new repository. Keep in mind that this name will be used in the URL for your personal 
+        <b>Planit</b> webpage, so it's best to keep it short and memorable, like "planit". 
         Then, click <a href="#"><img src="docs/create_repo_from_template.png" height="20px" /></a>.
     </li>
     <li>
-        Visit the link below by filling in your GitHub username and the new repository's name:
+        Visit your new repository at the following link:
         <pre>https://github.com/YOUR_USERNAME/REPOSITORY_NAME/settings/secrets/actions</pre>
     </li>
     <li>
@@ -35,5 +39,10 @@ Planit is an assignment tracker for students that compiles due dates into an int
             <tr><th align="center">Username</th><th align="center">Password</th></tr>
             <tr align="center"><td>GRADESCOPE_USER</td><td>GRADESCOPE_PASSWORD</td></tr>
         </table>
+    </li>
+    <li>
+        That's it! <b>Planit</b> will start retrieving assignment information roughly once every hour and update your 
+        personal planner at the link below, which you can visit on any of your devices.
+        <pre>https://YOUR_USERNAME.github.io/REPOSITORY_NAME</pre>
     </li>
 </ol>
