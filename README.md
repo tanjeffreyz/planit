@@ -26,7 +26,7 @@ which is automatically executed many times a day using **GitHub Actions**.
         Then, click <a href="#"><img src="docs/create_repo_from_template.png" height="20px" /></a>.
     </li>
     <li>
-        Visit your new repository at the following link:
+        Visit your new repository's secrets at the following link:
         <pre>https://github.com/YOUR_USERNAME/REPOSITORY_NAME/settings/secrets/actions</pre>
     </li>
     <li>
