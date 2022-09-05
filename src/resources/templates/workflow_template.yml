@@ -45,7 +45,7 @@ jobs:
     
     - name: Commit new outputs
       run: |
-        git add . || true
+        git add * || true
         git commit -m 'Updated assignments' || true
         git push
         git push -f origin main:github-pages
