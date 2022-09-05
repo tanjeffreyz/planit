@@ -33,7 +33,7 @@ For the secrets' names, you may only use the ones listed below.
 
 <table align="center">
     <tr><th align="center">Username</th><th align="center">Password</th></tr>
-    
+    <tr align="center"><td>GRADESCOPE_USER</td><td>GRADESCOPE_PASSWORD</td></tr>
 </table>
 
 6. That's it! <b>Planit</b> will start retrieving assignment information roughly once every hour and update your 
