@@ -11,13 +11,13 @@ class Module:
 
         self.name = self.__class__.__name__.upper()
 
+        user_env = self.name + '_USER'
+        password_env = self.name + '_PASSWORD'
+        Module.envs.append(user_env)
+        Module.envs.append(password_env)
         try:
-            user_env = self.name + '_USER'
-            password_env = self.name + '_PASSWORD'
             self.user = os.environ[user_env]
             self.password = os.environ[password_env]
-            Module.envs.append(user_env)
-            Module.envs.append(password_env)
             self.valid = True
         except KeyError:
             self.valid = False
