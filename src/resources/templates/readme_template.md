@@ -21,7 +21,7 @@ Planit is an assignment tracker for students that compiles due dates into an int
     </li>
     <li>
         Visit the link below by filling in your GitHub username and the new repository's name:
-        <pre>https://github.com/{your_username}/{repository_name}/settings/secrets/actions</pre>
+        <pre>https://github.com/YOUR_USERNAME/REPOSITORY_NAME/settings/secrets/actions</pre>
     </li>
     <li>
         For each homework platform you use, create two new GitHub secrets: one for your username, one for your password. 
