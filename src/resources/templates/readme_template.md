@@ -39,9 +39,18 @@ For the secrets' names, you may only use the ones listed below.
     __SECRET_NAMES__
 </table>
 
-6. That's it! <b>Planit</b> will start retrieving assignment information roughly once every hour and update your 
-personal planner at the link below, which you can visit on any of your devices.
+6. Lastly, go to the following link:
+```
+https://github.com/YOUR_USERNAME/REPOSITORY_NAME/settings/pages
+```
 
+7. In the drop down under "Branch", select "github-pages":
+<div align="center">
+    <img src="docs/github_pages_prompt.png" width="600px" />
+</div>
+
+8. That's it! <b>Planit</b> will start retrieving assignment information roughly once every hour and update your 
+personal planner at the link below, which you can visit on any of your devices.
 ```
 https://YOUR_USERNAME.github.io/REPOSITORY_NAME
 ```
