@@ -45,7 +45,7 @@ jobs:
       run: |
         git config --global user.name 'planit-backend'
         git config --global user.email 'planit-backend@tanjeffreyz.github.io'
-        git add * || true
+        git add . || true
         git commit -m 'Updated assignments' || true
         git push
         git push -f origin main:github-pages
