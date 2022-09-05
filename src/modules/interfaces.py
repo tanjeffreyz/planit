@@ -28,7 +28,7 @@ class Module:
 
     def run(self, assignments):
         if not self.valid:
-            return
+            return print(f"Could not find login information for '{self.name}'")
         self._init()
 
         if not self.initialized:
