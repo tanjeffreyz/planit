@@ -15,7 +15,7 @@ which is automatically executed many times a day using **GitHub Actions**.
 1. Log into GitHub or <a href="https://github.com/join"><b>create a new GitHub account</b></a>.
 
 2. Click <a href="#"><img src="docs/use_this_template.png" height="20px" /></a> at the top of this page, 
-which should open the following prompt. Make sure "Include all branches" is checked:
+which should open the following prompt. <b>Make sure "Include all branches" is checked</b>:
 <div align="center">
     <img src="docs/generate_prompt.png" width="600px" />
 </div>
