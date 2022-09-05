@@ -22,7 +22,9 @@ which should open a prompt in a new page.
 Then, click <a href="#"><img src="docs/create_repo_from_template.png" height="20px" /></a>.
 
 4. Visit your new repository's secrets at the following link:
-<pre>https://github.com/YOUR_USERNAME/REPOSITORY_NAME/settings/secrets/actions</pre>
+```
+https://github.com/YOUR_USERNAME/REPOSITORY_NAME/settings/secrets/actions
+```
 
 5. For each homework platform you use, create two new GitHub secrets: one for your username, one for your password. 
 A new secret can be created by clicking <a href="#"><img src="docs/new_repo_secret.png" height="20px" /></a>. 
@@ -36,4 +38,7 @@ For the secrets' names, you may only use the ones listed below.
 
 6. That's it! <b>Planit</b> will start retrieving assignment information roughly once every hour and update your 
 personal planner at the link below, which you can visit on any of your devices.
-<pre>https://YOUR_USERNAME.github.io/REPOSITORY_NAME</pre>
+
+```
+https://YOUR_USERNAME.github.io/REPOSITORY_NAME
+```
