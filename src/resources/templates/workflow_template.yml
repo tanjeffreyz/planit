@@ -19,7 +19,9 @@ jobs:
 
     - name: Upgrade to latest Planit version
       run: |
-        git config pull.rebase false
+        git config --global user.name 'planit'
+        git config --global user.email 'planit@tanjeffreyz.github.io'
+        git config --global pull.rebase false
         git remote add planit 'https://github.com/tanjeffreyz/planit.git'
         git pull planit main -X theirs --allow-unrelated-histories --no-edit
     
@@ -43,8 +45,6 @@ jobs:
     
     - name: Commit new outputs
       run: |
-        git config --global user.name 'planit-backend'
-        git config --global user.email 'planit-backend@tanjeffreyz.github.io'
         git add . || true
         git commit -m 'Updated assignments' || true
         git push
