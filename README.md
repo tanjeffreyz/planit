@@ -15,7 +15,7 @@ which is automatically executed many times a day using **GitHub Actions**.
 1. Log into GitHub or <a href="https://github.com/join"><b>create a new GitHub account</b></a>.
 
 2. Click <a href="#"><img src="docs/use_this_template.png" height="20px" /></a> at the top of this page, 
-which should open the following prompt. Make sure "Include all branches" is checked:
+which should open the following prompt. <b>Make sure "Include all branches" is checked:</b>
 <div align="center">
     <img src="docs/generate_prompt.png" width="600px" />
 </div>
@@ -31,8 +31,8 @@ https://github.com/YOUR_USERNAME/REPOSITORY_NAME/settings/secrets/actions
 
 5. For each homework platform you use, create two new GitHub secrets: one for your username, one for your password. 
 A new secret can be created by clicking <a href="#"><img src="docs/new_repo_secret.png" height="20px" /></a>. 
-For the secrets' names, you may only use the ones listed below. 
-<a href="https://docs.github.com/en/actions/security-guides/encrypted-secrets"><b>Click here to learn more about GitHub secrets</b></a>.
+<b>For the secrets' names, you may only use the ones listed below.</b>
+   (<a href="https://docs.github.com/en/actions/security-guides/encrypted-secrets">Click here to learn more about GitHub secrets</a>)
 
 <table align="center">
     <tr><th align="center">Username</th><th align="center">Password</th></tr>
