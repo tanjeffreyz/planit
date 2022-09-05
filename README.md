@@ -11,7 +11,7 @@ which is automatically executed many times a day using **GitHub Actions**.
 <div align="center">
     <a href="https://tanjeffreyz.github.io/planit"><b>Click here to see an example</b></a>
 </div>
-asdf
+
 
 ## Setup Instructions
 1. Log into GitHub or <a href="https://github.com/join"><b>create a new GitHub account</b></a>.
