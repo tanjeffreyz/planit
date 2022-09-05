@@ -31,7 +31,7 @@ for i in range(len(Module.envs) // 2):
     table_rows.append(f'<tr align="center">{username}{password}</tr>')
 readme = readme_template.replace(
     '__SECRET_NAMES__',
-    ('\n' + ' ' * 12).join(table_rows)
+    ('\n' + ' ' * 4).join(table_rows)
 )
 with open('README.md', 'w') as file:
     file.write(readme)
