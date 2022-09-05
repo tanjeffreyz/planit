@@ -18,7 +18,7 @@ class Module:
         try:
             self.user = os.environ[user_env]
             self.password = os.environ[password_env]
-            self.valid = True
+            self.valid = (self.user != '' and self.password != '')
         except KeyError:
             self.valid = False
 
