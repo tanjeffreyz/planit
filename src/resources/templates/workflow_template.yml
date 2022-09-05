@@ -19,6 +19,7 @@ jobs:
 
     - name: Upgrade to latest Planit version
       run: |
+        git config pull.rebase false
         git remote add planit 'https://github.com/tanjeffreyz/planit.git'
         git pull planit main -X theirs --allow-unrelated-histories --no-edit
     
