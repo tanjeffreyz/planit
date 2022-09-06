@@ -90,21 +90,5 @@ assignments = {
       "link": "https://www.gradescope.com/courses/419131",
       "submitted": false
     }
-  ],
-  "Math 54 DIS 202 & DIS 223": [
-    {
-      "title": "Homework due 8/30",
-      "course": "Math 54 DIS 202 & DIS 223",
-      "dueDate": "2022-08-30T17:20:00",
-      "link": "https://www.gradescope.com/courses/430995",
-      "submitted": false
-    },
-    {
-      "title": "Homework due 9/6",
-      "course": "Math 54 DIS 202 & DIS 223",
-      "dueDate": "2022-09-06T23:59:00",
-      "link": "https://www.gradescope.com/courses/430995",
-      "submitted": false
-    }
   ]
 };

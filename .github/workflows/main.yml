@@ -49,5 +49,5 @@ jobs:
       run: |
         git add * || true
         git commit -m 'Updated assignments' || true
-        git push
+        git push origin main
         git push -f origin main:github-pages
