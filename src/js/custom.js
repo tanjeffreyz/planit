@@ -35,6 +35,7 @@ today.setSeconds(0);
 ////////////////////////////
 //    Global Variables    //
 ////////////////////////////
+let parsedAssignments = [];
 let numDays = 7;
 let reference = today;
 
@@ -44,6 +45,14 @@ let reference = today;
 ////////////////////////////
 function msToDays(ms) {
   return ms / (1000 * 60 * 60 * 24);
+}
+
+function getCalendarContainerId(i) {
+  return `chart-container-${i}`;
+}
+
+function calendarHeightForEntries(presentEntries) {
+  return presentEntries.length * BAR_WIDTH + X_AXIS_HEIGHT;
 }
 
 function formatDaysHours(days, hours) {
@@ -67,15 +76,11 @@ function formatDaysHours(days, hours) {
   return result;
 }
 
-
-///////////////////////
-//    Main Script    //
-///////////////////////
-function main() {
+function updateParsedAssignments() {
+  parsedAssignments = [];
   for (const [i, courseName] of Object.entries(Object.keys(assignments))) {
     const entries = assignments[courseName];    // Get assignment list for this course
 
-    // Prepare data
     const presentEntries = [];    // List of assignments that are due on or after today
     const titles = [];
     const dueDates = [];
@@ -108,6 +113,25 @@ function main() {
         }
       }
     }
+    parsedAssignments.push({
+      presentEntries, 
+      titles, 
+      dueDates, 
+      backgroundColors, 
+      borderColors
+    });
+  }
+}
+
+
+///////////////////////
+//    Main Script    //
+///////////////////////
+function init() {
+  updateParsedAssignments();
+  for (const [i, courseName] of Object.entries(Object.keys(assignments))) {
+    // Parse data
+    const { presentEntries, titles, dueDates, backgroundColors, borderColors } = parsedAssignments[i];
 
     // Prepare HTML for charts
     const div = document.createElement('div');
@@ -119,7 +143,8 @@ function main() {
     div.appendChild(courseTitle);
 
     const calendarContainer = document.createElement('div');
-    calendarContainer.style.height = `${presentEntries.length * BAR_WIDTH + X_AXIS_HEIGHT}px`;
+    calendarContainer.id = getCalendarContainerId(i);
+    calendarContainer.style.height = `${calendarHeightForEntries(presentEntries)}px`;
     calendarContainer.style.marginRight = `${Y_AXIS_WIDTH}px`;
 
     const canvas = document.createElement('canvas');
@@ -199,6 +224,7 @@ function main() {
           tooltip: {
             callbacks: {
               label: (context) => {
+                const presentEntries = parsedAssignments[i].presentEntries;
                 const date = new Date(presentEntries[context.dataIndex].dueDate);
                 const diff = msToDays(date - (new Date()));
                 const days = Math.floor(diff);
@@ -212,6 +238,7 @@ function main() {
                 }
               },
               afterLabel: (context) => {
+                const presentEntries = parsedAssignments[i].presentEntries;
                 const date = new Date(presentEntries[context.dataIndex].dueDate);
                 const dateString = date.toLocaleDateString('en-us', {
                   weekday: 'short',
@@ -244,6 +271,7 @@ function main() {
       const points = chart.getElementsAtEventForMode(e, 'nearest', options, true);
       if (points.length > 0) {
         const point = points[0];
+        const presentEntries = parsedAssignments[i].presentEntries;
         window.open(presentEntries[point.index].link, '_blank').focus();
       }
     };
@@ -268,9 +296,26 @@ function refresh() {
   document.getElementById('now').textContent = `${dateString} - ${timeString}`;
 
   // Refresh charts
-  for (const chart of charts) {
+  updateParsedAssignments();
+  for (let i = 0; i < charts.length; i++) {
+    const { presentEntries, titles, dueDates, backgroundColors, borderColors } = parsedAssignments[i];
+    const chart = charts[i];
+
+    // Update data
+    chart.data.labels = titles;
+    const dataset = chart.data.datasets[0];
+    dataset.data = dueDates;
+    dataset.backgroundColor = backgroundColors;
+    dataset.borderColor = borderColors;
+
+    // Update "now" annotation
     const daysToDueDate = msToDays(now - reference);
     chart.options.plugins.annotation.annotations.now.value = daysToDueDate;
+
+    // Update calendar height
+    const calendarContainer = document.getElementById(getCalendarContainerId(i));
+    calendarContainer.style.height = `${calendarHeightForEntries(presentEntries)}px`;
+
     chart.update();
   }
 
@@ -280,5 +325,5 @@ function refresh() {
 
 
 // Generate charts and periodically refresh
-main();
+init();
 refresh();
