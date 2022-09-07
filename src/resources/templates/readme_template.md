@@ -53,7 +53,7 @@ https://github.com/YOUR_USERNAME/REPOSITORY_NAME/settings/pages
     <img src="docs/github_pages_prompt.png" width="600px" />
 </div>
 
-8. That's it! <b>Planit</b> will start retrieving assignment information roughly once every hour and update your 
+8. That's it! In about 45 minutes, <b>Planit</b> will start retrieving assignment information roughly once every hour and update your 
 personal planner at the link below, which you can visit on any of your devices.
 ```
 https://YOUR_USERNAME.github.io/REPOSITORY_NAME
