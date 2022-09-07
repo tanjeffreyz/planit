@@ -5,7 +5,7 @@
 
 Planit is an assignment tracker for students that compiles due dates into an interactive, minimalist calendar. Because 
 some online homework platforms such as Gradescope don't have an API for students, web scraping is required to retrieve 
-information about assignments. **HTTPs requests** are used alongside `BeautifulSoup` to perform this web scraping, 
+information about assignments. **HTTPs requests** are used alongside **Beautiful Soup** to perform this web scraping, 
 which is automatically executed many times a day using **GitHub Actions**.
 
 <div align="center">
@@ -53,7 +53,7 @@ https://github.com/YOUR_USERNAME/REPOSITORY_NAME/settings/pages
     <img src="docs/github_pages_prompt.png" width="600px" />
 </div>
 
-8. That's it! <b>Planit</b> will start retrieving assignment information roughly once every hour and update your 
+8. That's it! In about 45 minutes, <b>Planit</b> will start retrieving assignment information roughly once every hour and update your 
 personal planner at the link below, which you can visit on any of your devices.
 ```
 https://YOUR_USERNAME.github.io/REPOSITORY_NAME
