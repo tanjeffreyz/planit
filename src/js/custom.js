@@ -14,34 +14,38 @@ const COLORS = [
 const CALENDARS = document.getElementById('calendars');
 const charts = [];
 
-const startOfWeek = new Date();   // This week's Monday at 12:00 AM
-const day = startOfWeek.getDay() || 7;
-if (day !== 1) {
-  startOfWeek.setHours(-24 * (day - 1));
-} else {
-  startOfWeek.setHours(0);
-}
-startOfWeek.setMinutes(0);
-startOfWeek.setSeconds(0);
-console.log('Start of this week:', startOfWeek);
-
-const today = new Date();     // Today at 12:00 AM
-today.setHours(0);
-today.setMinutes(0);
-today.setSeconds(0);
-
 
 ////////////////////////////
 //    Global Variables    //
 ////////////////////////////
 let parsedAssignments = [];
 let numDays = 7;
-let reference = today;
+let reference = getToday();
 
 
 ////////////////////////////
 //    Helper Functions    //
 ////////////////////////////
+function getStartOfWeek() {
+  const startOfWeek = new Date();      // This week's Monday at 12:00 AM
+  const day = startOfWeek.getDay() || 7;
+  if (day !== 1) {
+    startOfWeek.setHours(-24 * (day - 1));
+  } else {
+    startOfWeek.setHours(0);
+  }
+  startOfWeek.setMinutes(0);
+  startOfWeek.setSeconds(0);
+  return startOfWeek;
+}
+
+function getToday() {
+  const today = new Date();     // Today at 12:00 AM
+  today.setHours(0);
+  today.setMinutes(0);
+  today.setSeconds(0);
+}
+
 function msToDays(ms) {
   return ms / (1000 * 60 * 60 * 24);
 }
@@ -282,6 +286,9 @@ function init() {
 
 
 function refresh() {
+  // Update reference
+  reference = getToday();
+
   // Display current time
   const now = new Date();
   const dateString = now.toLocaleDateString('en-us', {
