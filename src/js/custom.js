@@ -101,7 +101,7 @@ function updateParsedAssignments() {
       if (daysFromReference > 0) {
         presentEntries.push(entry);
         titles.push(entry.title);
-        dueDates.push(daysFromReference);
+        dueDates.push(Math.min(daysFromReference, numDays));
         if (!entry.submitted) {
           if (daysFromReference > numDays) {
             // No border for assignments that extend past display window
