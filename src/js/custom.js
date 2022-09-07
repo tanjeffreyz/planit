@@ -44,6 +44,7 @@ function getToday() {
   today.setHours(0);
   today.setMinutes(0);
   today.setSeconds(0);
+  return today;
 }
 
 function msToDays(ms) {
@@ -55,7 +56,7 @@ function getCalendarContainerId(i) {
 }
 
 function calendarHeightForEntries(presentEntries) {
-  return presentEntries.length * BAR_WIDTH + X_AXIS_HEIGHT;
+  return Math.max(presentEntries.length, 1) * BAR_WIDTH + X_AXIS_HEIGHT;
 }
 
 function formatDaysHours(days, hours) {
@@ -186,7 +187,7 @@ function init() {
               autoSkip: false,
               align: 'end',
               callback: (val, i) => {
-                const date = new Date(today.getTime());
+                const date = new Date(getToday().getTime());
                 date.setHours(24 * (i - 1));
                 const dateString = date.toLocaleDateString('en-us', {
                   weekday: 'short',
@@ -219,7 +220,7 @@ function init() {
                 xMin: 0,
                 xMax: msToDays((new Date()) - reference),
                 yMin: -1,
-                yMax: presentEntries.length,
+                yMax: presentEntries.length + 1,
                 borderColor: 'rgb(0, 0, 0, 0)',
                 backgroundColor: 'rgb(255, 0, 0, 0.1)'
               }
@@ -319,7 +320,7 @@ function refresh() {
     const daysToDueDate = msToDays(now - reference);
     const nowAnnotation = chart.options.plugins.annotation.annotations.now;
     nowAnnotation.xMax = daysToDueDate;
-    nowAnnotation.yMax = presentEntries.length;
+    nowAnnotation.yMax = presentEntries.length + 1;
 
     // Update calendar height
     const calendarContainer = document.getElementById(getCalendarContainerId(i));
