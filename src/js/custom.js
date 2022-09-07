@@ -5,7 +5,6 @@ const BAR_WIDTH = 45;
 const X_AXIS_HEIGHT = 39;
 const Y_AXIS_WIDTH = 12;
 const COLORS = [
-  [255, 26, 104],
   [54, 162, 235],
   [255, 206, 86],
   [75, 192, 192],
@@ -212,12 +211,13 @@ function init() {
           annotation: {
             annotations: {
               now: {
-                type: 'line',
-                mode: 'vertical',
-                scaleID: 'x',
-                value: msToDays((new Date()) - reference),
-                borderWidth: 1,
-                borderColor: 'rgb(255, 0, 0, 0.5)'
+                type: 'box',
+                xMin: 0,
+                xMax: msToDays((new Date()) - reference),
+                yMin: -1,
+                yMax: presentEntries.length,
+                borderColor: 'rgb(0, 0, 0, 0)',
+                backgroundColor: 'rgb(255, 0, 0, 0.1)'
               }
             }
           },
@@ -310,7 +310,9 @@ function refresh() {
 
     // Update "now" annotation
     const daysToDueDate = msToDays(now - reference);
-    chart.options.plugins.annotation.annotations.now.value = daysToDueDate;
+    const nowAnnotation = chart.options.plugins.annotation.annotations.now;
+    nowAnnotation.xMax = daysToDueDate;
+    nowAnnotation.yMax = presentEntries.length;
 
     // Update calendar height
     const calendarContainer = document.getElementById(getCalendarContainerId(i));
