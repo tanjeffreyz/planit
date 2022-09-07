@@ -316,6 +316,14 @@ function refresh() {
     dataset.backgroundColor = backgroundColors;
     dataset.borderColor = borderColors;
 
+    // Don't show y-axis ticks if no assignments
+    const yTicks = chart.options.scales.y.ticks;
+    if (presentEntries.length > 0) {
+      delete yTicks.callback;
+    } else {
+      yTicks.callback = (val, i) => '';
+    }
+
     // Update "now" annotation
     const daysToDueDate = msToDays(now - reference);
     const nowAnnotation = chart.options.plugins.annotation.annotations.now;
