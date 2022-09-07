@@ -286,7 +286,7 @@ function init() {
 }
 
 
-function refresh() {
+function refresh(recurse=false) {
   // Update reference
   reference = getToday();
 
@@ -338,10 +338,12 @@ function refresh() {
   }
 
   console.log('Refreshed');
-  setTimeout(refresh, 1000);
+  if (recurse) {
+    setTimeout(() => refresh(recurse), 1000);
+  }
 }
 
 
 // Generate charts and periodically refresh
 init();
-refresh();
+refresh(recurse=true);
