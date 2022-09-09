@@ -75,6 +75,13 @@ assignments = {
       "submitted": false
     },
     {
+      "title": "Lab 03",
+      "course": "Data 100",
+      "dueDate": "2022-09-13T23:59:00",
+      "link": "https://www.gradescope.com/courses/422877",
+      "submitted": false
+    },
+    {
       "title": "Quick Check 3",
       "course": "Data 100",
       "dueDate": "2022-09-12T23:59:00",
