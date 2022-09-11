@@ -19,7 +19,7 @@ which is automatically executed many times a day using **GitHub Actions**.
 2. Click <a href="#"><img src="docs/use_this_template.png" height="20px" /></a> at the top of this page, 
 which should open the following prompt. <b>Make sure "Include all branches" is checked:</b>
 <div align="center">
-    <img src="docs/generate_prompt.png" width="600px" />
+    <img src="docs/generate_prompt.png" width="85%" />
 </div>
 
 3. Enter a name for the new repository. Keep in mind that this name will be used in the URL for your personal 
@@ -50,7 +50,7 @@ https://github.com/YOUR_USERNAME/REPOSITORY_NAME/settings/pages
 
 7. In the dropdown menu under "Branch", select "github-pages":
 <div align="center">
-    <img src="docs/github_pages_prompt.png" width="600px" />
+    <img src="docs/github_pages_prompt.png" width="85%" />
 </div>
 
 8. That's it! In about 45 minutes, <b>Planit</b> will start retrieving assignment information roughly once every hour and update your 
