@@ -22,6 +22,13 @@ assignments = {
       "dueDate": "2022-09-09T23:59:00",
       "link": "https://www.gradescope.com/courses/419634/assignments/2209664/submissions/131225850",
       "submitted": true
+    },
+    {
+      "title": "Project 1 Writeup",
+      "course": "CS 161",
+      "dueDate": "2022-09-30T23:59:00",
+      "link": "https://www.gradescope.com/courses/419634",
+      "submitted": false
     }
   ],
   "Data 100": [
