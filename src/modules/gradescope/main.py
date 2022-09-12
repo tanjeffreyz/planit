@@ -52,20 +52,21 @@ class Gradescope(Module):
             course_dashboard = Module.parse_html(course_dashboard_res.text)
             assignment_table = course_dashboard.find('tbody')
             for row in assignment_table.find_all('tr', {'role': 'row'}):
-                title = Gradescope._get_assignment_title(row)
                 date_string = Gradescope._get_assignment_due_date(row)
-                status = Gradescope._get_assignment_status(row)
-                link = Gradescope._get_assignment_link(row, course_link)
-                submitted = (status != 'No Submission')
+                if date_string is not None:         # Only add assignment if it has a due date
+                    title = Gradescope._get_assignment_title(row)
+                    status = Gradescope._get_assignment_status(row)
+                    link = Gradescope._get_assignment_link(row, course_link)
+                    submitted = (status != 'No Submission')
 
-                # Add to assignments list
-                assignments[course_name].append(utils.get_assignment_dict(
-                    title,
-                    course_name,
-                    date_string,
-                    link,
-                    submitted=submitted
-                ))
+                    # Add to assignments list
+                    assignments[course_name].append(utils.get_assignment_dict(
+                        title,
+                        course_name,
+                        date_string,
+                        link,
+                        submitted=submitted
+                    ))
 
     @staticmethod
     def _get_assignment_title(row):
@@ -83,7 +84,11 @@ class Gradescope(Module):
     def _get_assignment_due_date(row):
         """Returns the title of an assignment given its row in the table."""
 
-        return row.find('span', {'class': 'submissionTimeChart--dueDate'}).text
+        due_date = row.find('span', {'class': 'submissionTimeChart--dueDate'})
+        if due_date is not None:
+            return due_date.text
+        else:
+            return None
 
     @staticmethod
     def _get_assignment_status(row):
