@@ -99,6 +99,20 @@ assignments = {
       "dueDate": "2022-09-19T23:59:00",
       "link": "https://www.gradescope.com/courses/422877/assignments/2241956/submissions/new",
       "submitted": false
+    },
+    {
+      "title": "Lab 4",
+      "course": "Data 100",
+      "dueDate": "2022-09-20T23:59:00",
+      "link": "https://www.gradescope.com/courses/422877",
+      "submitted": false
+    },
+    {
+      "title": "Homework 4",
+      "course": "Data 100",
+      "dueDate": "2022-09-22T23:59:00",
+      "link": "https://www.gradescope.com/courses/422877",
+      "submitted": false
     }
   ],
   "Data 140": [
