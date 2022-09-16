@@ -18,8 +18,8 @@ assignments = {
       "title": "Homework 2",
       "course": "CS 161",
       "dueDate": "2022-09-23T23:59:00",
-      "link": "https://www.gradescope.com/courses/419634/assignments/2250878/submissions/new",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/419634/assignments/2250878/submissions/134142498",
+      "submitted": true
     },
     {
       "title": "Project 1 Checkpoint",
@@ -75,9 +75,9 @@ assignments = {
     {
       "title": "Homework 3",
       "course": "Data 100",
-      "dueDate": "2022-09-15T23:59:00",
-      "link": "https://www.gradescope.com/courses/422877",
-      "submitted": false
+      "dueDate": "2022-09-16T23:59:00",
+      "link": "https://www.gradescope.com/courses/422877/assignments/2222764/submissions/134135319",
+      "submitted": true
     },
     {
       "title": "Lab 03",
