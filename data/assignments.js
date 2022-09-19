@@ -25,8 +25,8 @@ assignments = {
       "title": "Project 1 Checkpoint",
       "course": "CS 161",
       "dueDate": "2022-09-16T23:59:00",
-      "link": "https://www.gradescope.com/courses/419634",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/419634/assignments/2257656/submissions/134664996",
+      "submitted": true
     }
   ],
   "Data 100": [
