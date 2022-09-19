@@ -97,8 +97,8 @@ assignments = {
       "title": "Quick Check 4",
       "course": "Data 100",
       "dueDate": "2022-09-19T23:59:00",
-      "link": "https://www.gradescope.com/courses/422877/assignments/2241956/submissions/new",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/422877/assignments/2241956/submissions/134752358",
+      "submitted": true
     },
     {
       "title": "Lab 4",
