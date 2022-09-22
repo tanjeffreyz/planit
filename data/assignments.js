@@ -178,6 +178,13 @@ assignments = {
       "dueDate": "2022-09-19T23:59:00",
       "link": "https://www.gradescope.com/courses/419131/assignments/2257858/submissions/134876651",
       "submitted": true
+    },
+    {
+      "title": "Homework 05",
+      "course": "Data 140",
+      "dueDate": "2022-09-26T23:59:00",
+      "link": "https://www.gradescope.com/courses/419131",
+      "submitted": false
     }
   ]
 };
