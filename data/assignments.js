@@ -134,6 +134,13 @@ assignments = {
       "dueDate": "2022-09-27T23:59:00",
       "link": "https://www.gradescope.com/courses/422877",
       "submitted": false
+    },
+    {
+      "title": "Homework 5",
+      "course": "Data 100",
+      "dueDate": "2022-09-29T23:59:00",
+      "link": "https://www.gradescope.com/courses/422877",
+      "submitted": false
     }
   ],
   "Data 140": [
