@@ -125,8 +125,8 @@ assignments = {
       "title": "Quick Check 5",
       "course": "Data 100",
       "dueDate": "2022-09-26T23:59:00",
-      "link": "https://www.gradescope.com/courses/422877/assignments/2279583/submissions/new",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/422877/assignments/2279583/submissions/136447889",
+      "submitted": true
     },
     {
       "title": "Lab 5",
