@@ -34,6 +34,13 @@ assignments = {
       "dueDate": "2022-09-30T23:59:00",
       "link": "https://www.gradescope.com/courses/419634",
       "submitted": false
+    },
+    {
+      "title": "Homework 3",
+      "course": "CS 161",
+      "dueDate": "2022-10-07T23:59:00",
+      "link": "https://www.gradescope.com/courses/419634/assignments/2302454/submissions/new",
+      "submitted": false
     }
   ],
   "Data 100": [
