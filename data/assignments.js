@@ -183,13 +183,6 @@ assignments = {
       "dueDate": "2022-10-06T23:59:00",
       "link": "https://www.gradescope.com/courses/422877",
       "submitted": false
-    },
-    {
-      "title": "Project 1A",
-      "course": "Data 100",
-      "dueDate": "2022-07-14T23:59:00",
-      "link": "https://www.gradescope.com/courses/422877",
-      "submitted": false
     }
   ],
   "Data 140": [
