@@ -38,14 +38,14 @@ assignments = {
     {
       "title": "Homework 3",
       "course": "CS 161",
-      "dueDate": "2022-10-07T23:59:00",
+      "dueDate": "2022-10-10T23:59:00",
       "link": "https://www.gradescope.com/courses/419634/assignments/2302454/submissions/new",
       "submitted": false
     },
     {
       "title": "Homework 3 Lab Autograder",
       "course": "CS 161",
-      "dueDate": "2022-10-07T23:59:00",
+      "dueDate": "2022-10-10T23:59:00",
       "link": "https://www.gradescope.com/courses/419634",
       "submitted": false
     }
@@ -160,8 +160,8 @@ assignments = {
       "title": "Quick Check 6 ",
       "course": "Data 100",
       "dueDate": "2022-10-03T23:59:00",
-      "link": "https://www.gradescope.com/courses/422877/assignments/2300738/submissions/new",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/422877/assignments/2300738/submissions/138128902",
+      "submitted": true
     },
     {
       "title": "Grad Project Checkpoint 1",
