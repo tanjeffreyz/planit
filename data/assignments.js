@@ -46,8 +46,8 @@ assignments = {
       "title": "Homework 3 Lab Autograder",
       "course": "CS 161",
       "dueDate": "2022-10-10T23:59:00",
-      "link": "https://www.gradescope.com/courses/419634",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/419634/assignments/2303618/submissions/139892003",
+      "submitted": true
     }
   ],
   "Data 100": [
