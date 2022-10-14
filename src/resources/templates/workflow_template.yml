@@ -23,8 +23,14 @@ jobs:
         git config --global user.email 'planit@tanjeffreyz.github.io'
         git config --global pull.rebase false
         git remote add planit 'https://github.com/tanjeffreyz/planit.git'
-        git pull planit main -X theirs --allow-unrelated-histories --squash
-        git commit --no-edit || true
+        git fetch planit
+        git checkout planit/main src
+        git checkout planit/main main.py
+        git checkout planit/main index.html
+        git checkout planit/main docs
+        git checkout planit/main .gitignore
+        git checkout planit/main requirements.txt
+        git commit -m 'Upgraded to latest Planit version' || true
     
     - name: Set up Python 3.10
       uses: actions/setup-python@v3

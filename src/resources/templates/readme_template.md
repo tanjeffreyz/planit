@@ -13,8 +13,8 @@ which is automatically executed many times a day using **GitHub Actions**.
 </div>
 
 
-## Setup Instructions
-1. Log into GitHub or <a href="https://github.com/join"><b>create a new GitHub account</b></a>.
+## One-time Setup Instructions
+1. Log into GitHub or <a href="https://github.com/join"><b>create a new GitHub account</b></a> if you don't have one.
 
 2. Click <a href="#"><img src="docs/use_this_template.png" height="20px" /></a> at the top of this page, 
 which should open the following prompt. <b>Make sure "Include all branches" is checked:</b>
@@ -35,15 +35,15 @@ https://github.com/YOUR_USERNAME/REPOSITORY_NAME/settings/secrets/actions
 <a href="https://docs.github.com/en/actions/security-guides/encrypted-secrets">GitHub secrets</a>: 
 one for your username and one for your password. A new secret can be created by clicking 
 <a href="#"><img src="docs/new_repo_secret.png" height="20px" /></a>. 
-<b>For the secret's "Name" field, you may only use the names listed below.</b>
-In the "Secret" field, enter either your username or password.
+<b>For the secret's "Name" field, you may only use the values listed below.
+In the "Secret" field, enter either your username or password depending on what value you chose for the "Name" field.</b>
 
 <table align="center">
     <tr><th align="center">Username</th><th align="center">Password</th></tr>
     __SECRET_NAMES__
 </table>
 
-6. Lastly, go to the following link:
+6. Next, go to the following link:
 ```
 https://github.com/YOUR_USERNAME/REPOSITORY_NAME/settings/pages
 ```
@@ -53,7 +53,10 @@ https://github.com/YOUR_USERNAME/REPOSITORY_NAME/settings/pages
     <img src="docs/github_pages_prompt.png" width="85%" />
 </div>
 
-8. That's it! In about 45 minutes, <b>Planit</b> will start retrieving assignment information roughly once every hour and update your 
+8. Lastly, using the file navigation above, go to `data/assignments.js`, **delete** the file, and click 
+<a href="#"><img src="docs/commit_changes.png" height="20px" /></a>. 
+
+9. That's it! <b>Planit</b> will start retrieving assignment information roughly once every hour and update your 
 personal planner at the link below, which you can visit on any of your devices.
 ```
 https://YOUR_USERNAME.github.io/REPOSITORY_NAME
