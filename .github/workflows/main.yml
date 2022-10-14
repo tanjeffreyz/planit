@@ -26,6 +26,7 @@ jobs:
         git fetch planit
         git checkout planit/main src
         git checkout planit/main main.py
+        git checkout planit/main index.html
         git checkout planit/main docs
         git checkout planit/main .gitignore
         git checkout planit/main requirements.txt
