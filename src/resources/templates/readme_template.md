@@ -48,7 +48,8 @@ In the "Secret" field, enter either your username or password depending on what 
 https://github.com/YOUR_USERNAME/REPOSITORY_NAME/settings/pages
 ```
 
-7. In the dropdown menu under "Branch", select "github-pages":
+7. In the dropdown menu under "Branch", select "github-pages" and click
+<a href="#"><img src="docs/save.png" height="20px" /></a>:
 <div align="center">
     <img src="docs/github_pages_prompt.png" width="85%" />
 </div>
