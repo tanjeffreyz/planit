@@ -206,13 +206,6 @@ assignments = {
       "submitted": true
     },
     {
-      "title": "Overall Grade",
-      "course": "Data 100",
-      "dueDate": "2022-12-22T13:00:00",
-      "link": "https://www.gradescope.com/courses/422877/assignments/2317321/submissions/141011955",
-      "submitted": true
-    },
-    {
       "title": "Discussion",
       "course": "Data 100",
       "dueDate": "2022-12-22T13:00:00",
