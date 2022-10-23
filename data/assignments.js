@@ -251,8 +251,8 @@ assignments = {
       "title": "Quick Check 9",
       "course": "Data 100",
       "dueDate": "2022-10-24T23:59:00",
-      "link": "https://www.gradescope.com/courses/422877/assignments/2364500/submissions/new",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/422877/assignments/2364500/submissions/143136004",
+      "submitted": true
     },
     {
       "title": "Midterm Online Exam",
