@@ -53,8 +53,8 @@ assignments = {
       "title": "Homework 4",
       "course": "CS 161",
       "dueDate": "2022-10-21T23:59:00",
-      "link": "https://www.gradescope.com/courses/419634/assignments/2346817/submissions/new",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/419634/assignments/2346817/submissions/143313301",
+      "submitted": true
     }
   ],
   "Data 100": [
@@ -258,13 +258,6 @@ assignments = {
       "title": "Midterm Online Exam",
       "course": "Data 100",
       "dueDate": "2022-10-20T23:59:00",
-      "link": "https://www.gradescope.com/courses/422877",
-      "submitted": false
-    },
-    {
-      "title": "Homework 7 Written (Student Submission)",
-      "course": "Data 100",
-      "dueDate": "2022-07-28T23:59:00",
       "link": "https://www.gradescope.com/courses/422877",
       "submitted": false
     }
