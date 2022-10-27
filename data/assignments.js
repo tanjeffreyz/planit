@@ -220,6 +220,13 @@ assignments = {
       "submitted": true
     },
     {
+      "title": "Discussion",
+      "course": "Data 100",
+      "dueDate": "2022-12-22T13:00:00",
+      "link": "https://www.gradescope.com/courses/422877/assignments/2317951/submissions/143224695",
+      "submitted": true
+    },
+    {
       "title": "Quick Check 7",
       "course": "Data 100",
       "dueDate": "2022-10-10T23:59:00",
@@ -237,8 +244,8 @@ assignments = {
       "title": "Project 1B",
       "course": "Data 100",
       "dueDate": "2022-10-27T23:59:00",
-      "link": "https://www.gradescope.com/courses/422877",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/422877/assignments/2334512/submissions/144262646",
+      "submitted": true
     },
     {
       "title": "Project 1B Test Set Predictions",
