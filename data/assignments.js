@@ -276,6 +276,20 @@ assignments = {
       "submitted": false
     },
     {
+      "title": "Lab 10",
+      "course": "Data 100",
+      "dueDate": "2022-11-01T23:59:00",
+      "link": "https://www.gradescope.com/courses/422877",
+      "submitted": false
+    },
+    {
+      "title": "Homework 7",
+      "course": "Data 100",
+      "dueDate": "2022-11-03T23:59:00",
+      "link": "https://www.gradescope.com/courses/422877",
+      "submitted": false
+    },
+    {
       "title": "Quick Check 10",
       "course": "Data 100",
       "dueDate": "2022-10-31T23:59:00",
