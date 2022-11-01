@@ -11,6 +11,7 @@ which is automatically executed many times a day using **GitHub Actions**.
 <div align="center">
     <a href="https://tanjeffreyz.github.io/planit"><b>Click here to see an example</b></a>
 </div>
+<br>
 
 
 ## One-time Setup Instructions
