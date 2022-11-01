@@ -59,7 +59,7 @@ https://github.com/YOUR_USERNAME/REPOSITORY_NAME/settings/pages
 <a href="#"><img src="docs/commit_changes.png" height="20px" /></a>. 
 
 9. That's it! <b>Planit</b> will start retrieving assignment information roughly once every hour and update your 
-personal planner at the link below, which you can visit on any of your devices.
+personal planner at the link below, which you can visit (and bookmark!) on any of your devices.
 ```
 https://YOUR_USERNAME.github.io/REPOSITORY_NAME
 ```
