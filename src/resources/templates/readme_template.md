@@ -55,7 +55,7 @@ https://github.com/YOUR_USERNAME/REPOSITORY_NAME/settings/pages
     <img src="docs/github_pages_prompt.png" width="60%" />
 </div>
 
-8. Lastly, using the file navigation in the repository's home page, go to `data/assignments.js`, **delete** the file, and click 
+8. Lastly, using the file navigation in your repository's home page, go to `data/assignments.js`, **delete** the file, and click 
 <a href="#"><img src="docs/commit_changes.png" height="20px" /></a>. 
 
 9. That's it! <b>Planit</b> will start retrieving assignment information roughly once every hour and update your 
