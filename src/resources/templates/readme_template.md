@@ -19,7 +19,7 @@ which is automatically executed many times a day using **GitHub Actions**.
 2. Click <a href="#"><img src="docs/use_this_template.png" height="20px" /></a> at the top of this page, 
 which should open the following prompt. <b>Make sure "Include all branches" is checked:</b>
 <div align="center">
-    <img src="docs/generate_prompt.png" width="85%" />
+    <img src="docs/generate_prompt.png" width="60%" />
 </div>
 
 3. Enter a name for the new repository. Keep in mind that this name will be used in the URL for your personal 
@@ -51,7 +51,7 @@ https://github.com/YOUR_USERNAME/REPOSITORY_NAME/settings/pages
 7. In the dropdown menu under "Branch", select "github-pages" and click
 <a href="#"><img src="docs/save.png" height="20px" /></a>:
 <div align="center">
-    <img src="docs/github_pages_prompt.png" width="85%" />
+    <img src="docs/github_pages_prompt.png" width="60%" />
 </div>
 
 8. Lastly, using the file navigation in the repository's home page, go to `data/assignments.js`, **delete** the file, and click 
