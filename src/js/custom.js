@@ -94,7 +94,6 @@ function updateParsedAssignments() {
     const background = `rgba(${color[0]}, ${color[1]}, ${color[2]}, 0.2)`;
     const border = `rgba(${color[0]}, ${color[1]}, ${color[2]}, 1.0)`;
     const inactiveBackground = `rgba(0, 0, 0, 0.05)`;
-    const inactiveBorder = `rgba(0, 0, 0, 0.25)`;
     for (let entry of entries) {
       const dueDate = new Date(entry.dueDate);
       const daysFromReference = msToDays(dueDate - reference);
@@ -113,7 +112,7 @@ function updateParsedAssignments() {
           }
         } else {
           backgroundColors.push(inactiveBackground);
-          borderColors.push(inactiveBorder);
+          borderColors.push(inactiveBackground);
         }
       }
     }
