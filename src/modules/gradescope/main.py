@@ -40,8 +40,10 @@ class Gradescope(Module):
         dashboard_res = self.session.get(Gradescope.ROOT + '/account')
         dashboard = Module.parse_html(dashboard_res.text)
 
-        course_list = dashboard.find('div', {'class': 'courseList--coursesForTerm'})
-        for course_entry in course_list.find_all('a', {'class': 'courseBox'}):
+        # Avoid "Instructor" section
+        student_courses = dashboard.find_all('div', {'class': 'courseList'})[-1]
+        current_courses = student_courses.find('div', {'class': 'courseList--coursesForTerm'})
+        for course_entry in current_courses.find_all('a', {'class': 'courseBox'}):
             course_name = course_entry.find('h3', {'class': 'courseBox--shortname'}).text
             if course_name not in assignments:
                 assignments[course_name] = []
