@@ -7,7 +7,7 @@ DATA_DIR = 'data'
 TEMPLATES_DIR = os.path.join('src', 'resources', 'templates')
 
 
-def get_assignment_dict(title, course, due_date, link, submitted=False):
+def get_assignment_dict(title, course, due_date, link, submitted):
     return {
         'title': title,
         'course': course,

@@ -67,7 +67,7 @@ class Gradescope(Module):
                         course_name,
                         date_string,
                         link,
-                        submitted=submitted
+                        submitted
                     ))
 
     @staticmethod
