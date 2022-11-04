@@ -299,14 +299,14 @@ assignments = {
     {
       "title": "Homework 7",
       "course": "Data 100",
-      "dueDate": "2022-11-03T23:59:00",
+      "dueDate": "2022-11-04T23:59:00",
       "link": "https://www.gradescope.com/courses/422877/assignments/2376955/submissions/145998605",
       "submitted": true
     },
     {
       "title": "Homework 7 Written (Student Submission)",
       "course": "Data 100",
-      "dueDate": "2022-11-03T23:59:00",
+      "dueDate": "2022-11-04T23:59:00",
       "link": "https://www.gradescope.com/courses/422877/assignments/2376960/submissions/146048338",
       "submitted": true
     },
@@ -321,6 +321,13 @@ assignments = {
       "title": "Homework 8",
       "course": "Data 100",
       "dueDate": "2022-11-10T23:59:00",
+      "link": "https://www.gradescope.com/courses/422877",
+      "submitted": false
+    },
+    {
+      "title": "Lab 11",
+      "course": "Data 100",
+      "dueDate": "2022-11-08T23:59:00",
       "link": "https://www.gradescope.com/courses/422877",
       "submitted": false
     },
