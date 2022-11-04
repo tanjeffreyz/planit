@@ -231,13 +231,13 @@ function init() {
                 const presentEntries = parsedAssignments[i].presentEntries;
                 const date = new Date(presentEntries[context.dataIndex].dueDate);
                 const diff = msToDays(date - (new Date()));
-                const days = Math.floor(diff);
-                const hours = 24 * (diff - days);
 
                 // Display time remaining
-                if (days <= 0 && hours <= 0) {
+                if (diff <= 0) {
                   return 'Due date has passed';
                 } else {
+                  const days = Math.floor(diff);
+                  const hours = 24 * (diff - days);
                   return formatDaysHours(days, hours) + ' left';
                 }
               },
