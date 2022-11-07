@@ -335,8 +335,8 @@ assignments = {
       "title": "Quick Check 11",
       "course": "Data 100",
       "dueDate": "2022-11-07T23:59:00",
-      "link": "https://www.gradescope.com/courses/422877/assignments/2407378/submissions/new",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/422877/assignments/2407378/submissions/146947735",
+      "submitted": true
     }
   ],
   "Data 140": [
