@@ -67,7 +67,7 @@ assignments = {
       "title": "Project 2 Design Doc Checkpoint",
       "course": "CS 161",
       "dueDate": "2022-10-28T23:59:00",
-      "link": "https://www.gradescope.com/courses/419634/assignments/2386998/submissions/146942341",
+      "link": "https://www.gradescope.com/courses/419634/assignments/2386998/submissions/146944233",
       "submitted": true
     }
   ],
