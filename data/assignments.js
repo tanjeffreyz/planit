@@ -463,8 +463,8 @@ assignments = {
       "title": "Lab 06A",
       "course": "Data 140",
       "dueDate": "2022-11-07T23:59:00",
-      "link": "https://www.gradescope.com/courses/419131",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/419131/assignments/2403920/submissions/147126111",
+      "submitted": true
     },
     {
       "title": "Homework 11",
