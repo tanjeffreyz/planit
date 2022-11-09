@@ -71,10 +71,17 @@ assignments = {
       "submitted": true
     },
     {
+      "title": "[OLD][UNGRADED] Homework 6",
+      "course": "CS 161",
+      "dueDate": "2022-11-08T10:59:00",
+      "link": "https://www.gradescope.com/courses/419634",
+      "submitted": false
+    },
+    {
       "title": "Homework 6",
       "course": "CS 161",
       "dueDate": "2022-11-18T23:59:00",
-      "link": "https://www.gradescope.com/courses/419634/assignments/2421107/submissions/new",
+      "link": "https://www.gradescope.com/courses/419634/assignments/2424041/submissions/new",
       "submitted": false
     }
   ],
@@ -335,8 +342,8 @@ assignments = {
       "title": "Lab 11",
       "course": "Data 100",
       "dueDate": "2022-11-08T23:59:00",
-      "link": "https://www.gradescope.com/courses/422877",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/422877/assignments/2401262/submissions/147422366",
+      "submitted": true
     },
     {
       "title": "Quick Check 11",
