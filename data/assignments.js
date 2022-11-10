@@ -73,7 +73,7 @@ assignments = {
     {
       "title": "[OLD][UNGRADED] Homework 6",
       "course": "CS 161",
-      "dueDate": "2022-11-08T10:59:00",
+      "dueDate": "2022-11-10T23:59:00",
       "link": "https://www.gradescope.com/courses/419634",
       "submitted": false
     },
@@ -81,7 +81,7 @@ assignments = {
       "title": "Homework 6",
       "course": "CS 161",
       "dueDate": "2022-11-18T23:59:00",
-      "link": "https://www.gradescope.com/courses/419634/assignments/2424049/submissions/new",
+      "link": "https://www.gradescope.com/courses/419634",
       "submitted": false
     },
     {
