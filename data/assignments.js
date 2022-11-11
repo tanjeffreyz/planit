@@ -349,8 +349,8 @@ assignments = {
       "title": "Homework 8",
       "course": "Data 100",
       "dueDate": "2022-11-10T23:59:00",
-      "link": "https://www.gradescope.com/courses/422877",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/422877/assignments/2397835/submissions/148068639",
+      "submitted": true
     },
     {
       "title": "Lab 11",
