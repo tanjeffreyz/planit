@@ -90,6 +90,13 @@ assignments = {
       "dueDate": "2022-12-21T15:00:00",
       "link": "https://www.gradescope.com/courses/419634",
       "submitted": false
+    },
+    {
+      "title": "Project 2 Autograder",
+      "course": "CS 161",
+      "dueDate": "2022-11-18T23:59:00",
+      "link": "https://www.gradescope.com/courses/419634",
+      "submitted": false
     }
   ],
   "Data 100": [
