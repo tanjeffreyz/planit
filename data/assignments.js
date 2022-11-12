@@ -258,7 +258,7 @@ assignments = {
       "title": "Discussion",
       "course": "Data 100",
       "dueDate": "2022-12-22T13:00:00",
-      "link": "https://www.gradescope.com/courses/422877/assignments/2317951/submissions/144671599",
+      "link": "https://www.gradescope.com/courses/422877/assignments/2317951/submissions/148320590",
       "submitted": true
     },
     {
