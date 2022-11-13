@@ -199,7 +199,7 @@ assignments = {
       "submitted": true
     },
     {
-      "title": "Quick Check 6 ",
+      "title": "Quick Check 6",
       "course": "Data 100",
       "dueDate": "2022-10-03T23:59:00",
       "link": "https://www.gradescope.com/courses/422877/assignments/2300738/submissions/138128902",
@@ -244,7 +244,7 @@ assignments = {
       "title": "Overall Grade",
       "course": "Data 100",
       "dueDate": "2022-12-22T13:00:00",
-      "link": "https://www.gradescope.com/courses/422877/assignments/2317321/submissions/148353632",
+      "link": "https://www.gradescope.com/courses/422877/assignments/2317321/submissions/148513483",
       "submitted": true
     },
     {
