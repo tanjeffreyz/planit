@@ -377,8 +377,8 @@ assignments = {
       "title": "Quick Check 12",
       "course": "Data 100",
       "dueDate": "2022-11-14T23:59:00",
-      "link": "https://www.gradescope.com/courses/422877/assignments/2425375/submissions/new",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/422877/assignments/2425375/submissions/148821716",
+      "submitted": true
     },
     {
       "title": "Project 2B",
@@ -540,8 +540,8 @@ assignments = {
       "title": "Homework 12",
       "course": "Data 140",
       "dueDate": "2022-11-14T23:59:00",
-      "link": "https://www.gradescope.com/courses/419131",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/419131/assignments/2423812/submissions/148815202",
+      "submitted": true
     }
   ]
 };
