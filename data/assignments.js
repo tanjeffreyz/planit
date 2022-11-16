@@ -90,6 +90,13 @@ assignments = {
       "dueDate": "2022-11-22T23:59:00",
       "link": "https://www.gradescope.com/courses/419634/assignments/2434724/submissions/new",
       "submitted": false
+    },
+    {
+      "title": "Project 2 Final Design Doc",
+      "course": "CS 161",
+      "dueDate": "2022-11-30T23:59:00",
+      "link": "https://www.gradescope.com/courses/419634",
+      "submitted": false
     }
   ],
   "Data 100": [
