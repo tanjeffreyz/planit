@@ -71,6 +71,20 @@ assignments = {
       "submitted": true
     },
     {
+      "title": "[OLD][UNGRADED] Homework 6",
+      "course": "CS 161",
+      "dueDate": "2022-11-18T23:59:00",
+      "link": "https://www.gradescope.com/courses/419634/assignments/2421107/submissions/new",
+      "submitted": false
+    },
+    {
+      "title": "[ALSO OLD][ALSO UNGRADED] Homework 6",
+      "course": "CS 161",
+      "dueDate": "2022-11-18T23:59:00",
+      "link": "https://www.gradescope.com/courses/419634/assignments/2424049/submissions/new",
+      "submitted": false
+    },
+    {
       "title": "[OPTIONAL] SQL Injection Lab",
       "course": "CS 161",
       "dueDate": "2022-12-21T15:00:00",
