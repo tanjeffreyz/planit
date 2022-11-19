@@ -94,7 +94,7 @@ assignments = {
     {
       "title": "Project 2 Autograder",
       "course": "CS 161",
-      "dueDate": "2022-11-18T23:59:00",
+      "dueDate": "2022-12-09T23:59:00",
       "link": "https://www.gradescope.com/courses/419634",
       "submitted": false
     },
@@ -108,7 +108,7 @@ assignments = {
     {
       "title": "Project 2 Final Design Doc",
       "course": "CS 161",
-      "dueDate": "2022-11-30T23:59:00",
+      "dueDate": "2022-12-09T23:59:00",
       "link": "https://www.gradescope.com/courses/419634",
       "submitted": false
     }
@@ -577,6 +577,13 @@ assignments = {
       "dueDate": "2022-11-14T23:59:00",
       "link": "https://www.gradescope.com/courses/419131/assignments/2423812/submissions/148815202",
       "submitted": true
+    },
+    {
+      "title": "Homework 13",
+      "course": "Data 140",
+      "dueDate": "2022-11-21T23:59:00",
+      "link": "https://www.gradescope.com/courses/419131",
+      "submitted": false
     }
   ]
 };
