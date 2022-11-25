@@ -570,6 +570,13 @@ assignments = {
       "dueDate": "2022-11-21T23:59:00",
       "link": "https://www.gradescope.com/courses/419131/assignments/2452237/submissions/150346490",
       "submitted": true
+    },
+    {
+      "title": "Homework 14",
+      "course": "Data 140",
+      "dueDate": "2022-11-28T23:59:00",
+      "link": "https://www.gradescope.com/courses/419131",
+      "submitted": false
     }
   ]
 };
