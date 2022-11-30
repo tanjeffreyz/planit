@@ -97,6 +97,20 @@ assignments = {
       "dueDate": "2022-12-01T23:59:00",
       "link": "https://www.gradescope.com/courses/419634",
       "submitted": false
+    },
+    {
+      "title": "Homework 7: Course Evaluations",
+      "course": "CS 161",
+      "dueDate": "2022-12-31T23:59:00",
+      "link": "https://www.gradescope.com/courses/419634",
+      "submitted": false
+    },
+    {
+      "title": "[Optional] Homework 7 Questions",
+      "course": "CS 161",
+      "dueDate": "2022-12-31T23:59:00",
+      "link": "https://www.gradescope.com/courses/419634/assignments/2470300/submissions/new",
+      "submitted": false
     }
   ],
   "Data 100": [
