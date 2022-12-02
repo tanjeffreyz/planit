@@ -95,15 +95,15 @@ assignments = {
       "title": "Project 2 Final Design Doc",
       "course": "CS 161",
       "dueDate": "2022-12-01T23:59:00",
-      "link": "https://www.gradescope.com/courses/419634",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/419634/assignments/2445624/submissions/151844591",
+      "submitted": true
     },
     {
       "title": "Homework 7: Course Evaluations",
       "course": "CS 161",
       "dueDate": "2022-12-31T23:59:00",
-      "link": "https://www.gradescope.com/courses/419634",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/419634/assignments/2470287/submissions/151835385",
+      "submitted": true
     },
     {
       "title": "[Optional] Homework 7 Questions",
