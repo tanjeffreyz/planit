@@ -428,6 +428,13 @@ assignments = {
       "dueDate": "2022-08-08T23:59:00",
       "link": "https://www.gradescope.com/courses/422877",
       "submitted": false
+    },
+    {
+      "title": "Graduate Project First Draft",
+      "course": "Data 100",
+      "dueDate": "2022-12-03T12:59:00",
+      "link": "https://www.gradescope.com/courses/422877",
+      "submitted": false
     }
   ],
   "Data 140": [
