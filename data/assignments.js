@@ -430,6 +430,13 @@ assignments = {
       "submitted": false
     },
     {
+      "title": "Test final",
+      "course": "Data 100",
+      "dueDate": "2022-12-02T18:00:00",
+      "link": "https://www.gradescope.com/courses/422877/assignments/2473898/submissions/new",
+      "submitted": false
+    },
+    {
       "title": "Graduate Project First Draft",
       "course": "Data 100",
       "dueDate": "2022-12-03T12:59:00",
