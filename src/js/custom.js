@@ -184,16 +184,16 @@ function init() {
             },
             ticks: {
               autoSkip: false,
-              align: 'end',
+              align: 'start',
               callback: (val, i) => {
                 const date = new Date(getToday().getTime());
-                date.setHours(24 * (i - 1));
+                date.setHours(24 * i);
                 const dateString = date.toLocaleDateString('en-us', {
                   weekday: 'short',
                   month: 'short',
                   day: 'numeric'
                 });
-                return i > 0 ? dateString : '';
+                return i < numDays ? dateString : '';
               }
             }
           },
