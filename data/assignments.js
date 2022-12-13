@@ -479,6 +479,13 @@ assignments = {
       "submitted": false
     },
     {
+      "title": "Online Final Exam",
+      "course": "Data 100",
+      "dueDate": "2022-12-13T16:00:00",
+      "link": "https://www.gradescope.com/courses/422877/assignments/2481065/submissions/154231926",
+      "submitted": true
+    },
+    {
       "title": "Online final: Sample questions",
       "course": "Data 100",
       "dueDate": "2022-12-13T14:00:00",
