@@ -37,7 +37,7 @@ https://github.com/YOUR_USERNAME/REPOSITORY_NAME/settings/secrets/actions
 one for your username and one for your password. A new secret can be created by clicking 
 <a href="#"><img src="docs/new_repo_secret.png" height="20px" /></a>. 
 <b>For the secret's "Name" field, you must only use the values listed below.
-In the "Secret" field, enter either your username or password depending on what value you chose for the "Name" field.</b>
+In the "Secret" field, enter either your username or password depending on the value you chose for the "Name" field.</b>
 
 <table align="center">
     <tr><th align="center">Username</th><th align="center">Password</th></tr>
