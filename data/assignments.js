@@ -160,6 +160,13 @@ assignments = {
       "dueDate": "2022-12-17T16:00:00",
       "link": "https://www.gradescope.com/courses/419634/assignments/2508181/submissions/new",
       "submitted": false
+    },
+    {
+      "title": "Online Final Exam",
+      "course": "CS 161",
+      "dueDate": "2022-12-16T18:10:00",
+      "link": "https://www.gradescope.com/courses/419634/assignments/2514365/submissions/new",
+      "submitted": false
     }
   ],
   "Data 100": [
