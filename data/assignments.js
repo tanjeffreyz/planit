@@ -162,7 +162,7 @@ assignments = {
       "submitted": false
     },
     {
-      "title": "Online Final Exam",
+      "title": "Final Exam - Online",
       "course": "CS 161",
       "dueDate": "2022-12-16T18:10:00",
       "link": "https://www.gradescope.com/courses/419634",
