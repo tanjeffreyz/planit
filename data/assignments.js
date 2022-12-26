@@ -71,7 +71,7 @@ assignments = {
       "submitted": true
     },
     {
-      "title": "[OPTIONAL] SQL Injection Lab",
+      "title": "[Ungraded] SQL Injection Lab",
       "course": "CS 161",
       "dueDate": "2022-12-21T15:00:00",
       "link": "https://www.gradescope.com/courses/419634",
