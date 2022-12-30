@@ -432,7 +432,7 @@ assignments = {
     {
       "title": "Lab 11-back",
       "course": "Data 100",
-      "dueDate": "2022-12-28T23:59:00",
+      "dueDate": "2022-01-16T23:59:00",
       "link": "https://www.gradescope.com/courses/422877",
       "submitted": false
     },
@@ -467,7 +467,7 @@ assignments = {
     {
       "title": "Homework 8 sqllite test",
       "course": "Data 100",
-      "dueDate": "2022-12-30T23:59:00",
+      "dueDate": "2022-01-16T23:59:00",
       "link": "https://www.gradescope.com/courses/422877",
       "submitted": false
     },
