@@ -328,14 +328,14 @@ assignments = {
       "title": "Overall Grade",
       "course": "Data 100",
       "dueDate": "2022-01-02T13:00:00",
-      "link": "https://www.gradescope.com/courses/422877/assignments/2317321/submissions/155124839",
+      "link": "https://www.gradescope.com/courses/422877/assignments/2317321/submissions/155130280",
       "submitted": true
     },
     {
       "title": "Discussion",
       "course": "Data 100",
       "dueDate": "2022-01-01T13:00:00",
-      "link": "https://www.gradescope.com/courses/422877/assignments/2317951/submissions/155127844",
+      "link": "https://www.gradescope.com/courses/422877/assignments/2317951/submissions/155129052",
       "submitted": true
     },
     {
