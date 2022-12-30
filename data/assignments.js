@@ -328,7 +328,7 @@ assignments = {
       "title": "Overall Grade",
       "course": "Data 100",
       "dueDate": "2022-01-02T13:00:00",
-      "link": "https://www.gradescope.com/courses/422877/assignments/2317321/submissions/155116502",
+      "link": "https://www.gradescope.com/courses/422877/assignments/2317321/submissions/155124839",
       "submitted": true
     },
     {
@@ -516,7 +516,7 @@ assignments = {
     {
       "title": "Final Exam",
       "course": "Data 100",
-      "dueDate": "2022-12-13T16:00:00",
+      "dueDate": "2022-12-17T16:00:00",
       "link": "https://www.gradescope.com/courses/422877/assignments/2481065/submissions/154231926",
       "submitted": true
     },
