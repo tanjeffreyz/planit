@@ -109,49 +109,49 @@ assignments = {
       "title": "[Optional] Homework 7 Questions",
       "course": "CS 161",
       "dueDate": "2023-12-31T23:59:00",
-      "link": "https://www.gradescope.com/courses/419634/assignments/2470300/submissions/new",
+      "link": "https://www.gradescope.com/courses/419634",
       "submitted": false
     },
     {
       "title": "[Ungraded] HW1 Practice Copy",
       "course": "CS 161",
       "dueDate": "2023-12-31T23:59:00",
-      "link": "https://www.gradescope.com/courses/419634/assignments/2486369/submissions/new",
+      "link": "https://www.gradescope.com/courses/419634",
       "submitted": false
     },
     {
       "title": "[Ungraded] HW2 Practice Copy",
       "course": "CS 161",
       "dueDate": "2023-12-31T23:59:00",
-      "link": "https://www.gradescope.com/courses/419634/assignments/2486370/submissions/new",
+      "link": "https://www.gradescope.com/courses/419634",
       "submitted": false
     },
     {
       "title": "[Ungraded] HW3 Practice Copy",
       "course": "CS 161",
       "dueDate": "2023-12-31T23:59:00",
-      "link": "https://www.gradescope.com/courses/419634/assignments/2486371/submissions/new",
+      "link": "https://www.gradescope.com/courses/419634",
       "submitted": false
     },
     {
       "title": "[Ungraded] HW4 Practice Copy",
       "course": "CS 161",
       "dueDate": "2023-12-31T23:59:00",
-      "link": "https://www.gradescope.com/courses/419634/assignments/2486372/submissions/new",
+      "link": "https://www.gradescope.com/courses/419634",
       "submitted": false
     },
     {
       "title": "[Ungraded] HW5 Practice Copy",
       "course": "CS 161",
       "dueDate": "2023-12-31T23:59:00",
-      "link": "https://www.gradescope.com/courses/419634/assignments/2486373/submissions/new",
+      "link": "https://www.gradescope.com/courses/419634",
       "submitted": false
     },
     {
       "title": "[Ungraded] HW6 Practice Copy",
       "course": "CS 161",
       "dueDate": "2023-12-31T23:59:00",
-      "link": "https://www.gradescope.com/courses/419634/assignments/2486374/submissions/new",
+      "link": "https://www.gradescope.com/courses/419634",
       "submitted": false
     },
     {
