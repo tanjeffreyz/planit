@@ -1,3 +1,1 @@
-assignments = {
-  "CS 162": []
-};
+assignments = {};
