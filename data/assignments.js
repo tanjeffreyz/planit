@@ -8,5 +8,14 @@ assignments = {
       "submitted": false
     }
   ],
-  "CS 184/284A": []
+  "CS 184/284A": [],
+  "CS 188": [
+    {
+      "title": "Project 0",
+      "course": "CS 188",
+      "dueDate": "2023-01-24T23:59:00",
+      "link": "https://www.gradescope.com/courses/483556",
+      "submitted": false
+    }
+  ]
 };
