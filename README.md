@@ -69,7 +69,7 @@ https://YOUR_USERNAME.github.io/REPOSITORY_NAME
 <br>
 
 ## Troubleshooting:
-If you see build errors in Github Actions and your planner isn't updating, make sure it has the proper permissions at the bottom of this page:
+If you see build errors in GitHub Actions and your planner isn't updating, make sure it has the proper permissions at the bottom of this page:
 ```
 https://github.com/YOUR_USERNAME/REPOSITORY_NAME/settings/actions
 ```
