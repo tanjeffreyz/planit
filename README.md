@@ -74,5 +74,5 @@ If you see build errors in Github Actions and your planner isn't updating, make 
 https://github.com/YOUR_USERNAME/REPOSITORY_NAME/settings/actions
 ```
 <div align="center">
-<a href="#"><img src="docs/workflow_perms.png" width="60%" /></a>
+    <img src="docs/workflow_perms.png" width="60%" />
 </div>
