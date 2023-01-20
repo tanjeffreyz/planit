@@ -16,6 +16,20 @@ assignments = {
       "dueDate": "2023-01-24T23:59:00",
       "link": "https://www.gradescope.com/courses/483556",
       "submitted": false
+    },
+    {
+      "title": "Project 1",
+      "course": "CS 188",
+      "dueDate": "2023-01-31T23:59:00",
+      "link": "https://www.gradescope.com/courses/483556",
+      "submitted": false
+    },
+    {
+      "title": "[Ungraded] Project 1 Cheatsheet",
+      "course": "CS 188",
+      "dueDate": "2023-05-12T23:59:00",
+      "link": "https://www.gradescope.com/courses/483556/assignments/2592456/submissions/new",
+      "submitted": false
     }
   ]
 };
