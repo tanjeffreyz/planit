@@ -215,13 +215,8 @@ function init() {
           annotation: {
             annotations: {
               now: {
-                type: 'box',
-                xMin: 0,
-                xMax: msToDays((new Date()) - reference),
-                yMin: -1,
-                yMax: presentEntries.length + 1,
+                yMin: -1,       // Left-aligns all vertical axes!
                 borderColor: 'rgb(0, 0, 0, 0)',
-                backgroundColor: 'rgb(255, 0, 0, 0.1)'
               }
             }
           },
@@ -261,17 +256,19 @@ function init() {
       },
       plugins: [
         {
-          id: 'updateNowAnnotation',
+          id: 'drawNowAnnotation',
           beforeDraw: (chart) => {
             const now = new Date();
             reference = getToday();
-
             const daysToDueDate = msToDays(now - reference);
-            const nowAnnotation = chart.options.plugins.annotation.annotations.now;
-            nowAnnotation.xMax = daysToDueDate;
-            nowAnnotation.yMax = presentEntries.length + 1;
-            
-            chart.update();
+
+            // Draw transparent red box to indicate elapsed time
+            const ctx = chart.ctx;
+            const xAxis = chart.scales.x;
+            const yAxis = chart.scales.y;
+            const tickWidth = xAxis.getPixelForTick(1) - xAxis.getPixelForTick(0);
+            ctx.fillStyle = 'rgb(255, 0, 0, 0.1)';
+            ctx.fillRect(yAxis.right, yAxis.top, tickWidth * daysToDueDate, yAxis.bottom - yAxis.top);
           }
         },
         {
