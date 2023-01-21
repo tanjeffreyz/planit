@@ -256,9 +256,7 @@ function init() {
                 return `${dateString} @ ${timeString}`;
               }
             }
-          },
-          updateNowAnnotation: {},
-          centerAlignLabels: {}
+          }
         }
       },
       plugins: [
