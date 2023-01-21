@@ -184,16 +184,16 @@ function init() {
             },
             ticks: {
               autoSkip: false,
-              align: 'start',
+              align: 'end',
               callback: (val, i) => {
                 const date = new Date(getToday().getTime());
-                date.setHours(24 * i);
+                date.setHours(24 * (i - 1));
                 const dateString = date.toLocaleDateString('en-us', {
                   weekday: 'short',
                   month: 'short',
                   day: 'numeric'
                 });
-                return i < numDays ? dateString : '';
+                return i > 0 ? dateString : '';
               }
             }
           },
@@ -256,9 +256,52 @@ function init() {
                 return `${dateString} @ ${timeString}`;
               }
             }
+          },
+          centerAlignLabels: {}
+        }
+      },
+      plugins: [
+        {
+          id: 'centerAlignLabels',
+          beforeDraw: (chart) => {
+            const tickTolerance = 10;
+            const xAxis = chart.scales.x;
+            chart.tickWidth = xAxis.getPixelForTick(1) - xAxis.getPixelForTick(0);
+
+            // Find width of widest label
+            let largestLabelWidth = 0;
+            Chart.helpers.each(xAxis.ticks, function(tick) {
+              largestLabelWidth = Math.max(chart.ctx.measureText(tick.label).width);
+            });
+
+            // Use default label behavior if centered horizontal label too wide for gap
+            if (largestLabelWidth < chart.tickWidth - tickTolerance) {
+              xAxis.options.ticks.display = false;
+              chart.isWide = true;
+            } else {
+              chart.isWide = false;
+            }
+          },
+          afterDraw: (chart) => {
+            const xAxis = chart.scales.x;
+            if (chart.isWide) {
+              const yPadding = 18;
+              const ctx = chart.ctx;
+              Chart.helpers.each(xAxis.ticks, function(tick, index) {
+                const xPos = xAxis.getPixelForTick(index);
+                const yPos = xAxis.top;
+                
+                // Draw centered label
+                ctx.textBaseline = 'middle';
+                ctx.textAlign = 'center';
+                ctx.fillStyle = 'rgba(0, 0, 0, 0.75)';
+                ctx.fillText(tick.label, xPos - (chart.tickWidth / 2.0), yPos + yPadding);
+              });
+            }
+            xAxis.options.ticks.display = true;
           }
         }
-      }
+      ]
     };
 
     const chart = new Chart(
