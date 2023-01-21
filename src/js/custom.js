@@ -257,10 +257,25 @@ function init() {
               }
             }
           },
+          updateNowAnnotation: {},
           centerAlignLabels: {}
         }
       },
       plugins: [
+        {
+          id: 'updateNowAnnotation',
+          beforeDraw: (chart) => {
+            const now = new Date();
+            reference = getToday();
+
+            const daysToDueDate = msToDays(now - reference);
+            const nowAnnotation = chart.options.plugins.annotation.annotations.now;
+            nowAnnotation.xMax = daysToDueDate;
+            nowAnnotation.yMax = presentEntries.length + 1;
+            
+            chart.update();
+          }
+        },
         {
           id: 'centerAlignLabels',
           beforeDraw: (chart) => {
@@ -365,12 +380,6 @@ function refresh(recurse=false) {
     } else {
       yTicks.callback = (val, i) => '';
     }
-
-    // Update "now" annotation
-    const daysToDueDate = msToDays(now - reference);
-    const nowAnnotation = chart.options.plugins.annotation.annotations.now;
-    nowAnnotation.xMax = daysToDueDate;
-    nowAnnotation.yMax = presentEntries.length + 1;
 
     // Update calendar height
     const calendarContainer = document.getElementById(getCalendarContainerId(i));
