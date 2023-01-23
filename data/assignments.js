@@ -18,7 +18,7 @@ assignments = {
   "CS 184/284A": [],
   "CS 188": [
     {
-      "title": "Project 0",
+      "title": "[Ungraded] Project 0",
       "course": "CS 188",
       "dueDate": "2023-01-24T23:59:00",
       "link": "https://www.gradescope.com/courses/483556",
@@ -36,6 +36,13 @@ assignments = {
       "course": "CS 188",
       "dueDate": "2023-05-12T23:59:00",
       "link": "https://www.gradescope.com/courses/483556/assignments/2592456/submissions/new",
+      "submitted": false
+    },
+    {
+      "title": "[Ungraded] Homework 0 (Electronic)",
+      "course": "CS 188",
+      "dueDate": "2023-01-27T23:59:00",
+      "link": "https://www.gradescope.com/courses/483556",
       "submitted": false
     }
   ]
