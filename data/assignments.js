@@ -42,7 +42,7 @@ assignments = {
       "title": "[Ungraded] Homework 0 (Electronic)",
       "course": "CS 188",
       "dueDate": "2023-01-27T23:59:00",
-      "link": "https://www.gradescope.com/courses/483556",
+      "link": "https://www.gradescope.com/courses/483556/assignments/2601831/submissions/new",
       "submitted": false
     }
   ]
