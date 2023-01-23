@@ -6,6 +6,13 @@ assignments = {
       "dueDate": "2023-01-25T23:59:00",
       "link": "https://www.gradescope.com/courses/487063/assignments/2579753/submissions/156539251",
       "submitted": true
+    },
+    {
+      "title": "Project 0 Written",
+      "course": "CS 162",
+      "dueDate": "2023-01-31T23:59:00",
+      "link": "https://www.gradescope.com/courses/487063/assignments/2599197/submissions/new",
+      "submitted": false
     }
   ],
   "CS 184/284A": [],
