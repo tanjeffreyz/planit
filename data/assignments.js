@@ -13,6 +13,13 @@ assignments = {
       "dueDate": "2023-01-31T23:59:00",
       "link": "https://www.gradescope.com/courses/487063/assignments/2599197/submissions/new",
       "submitted": false
+    },
+    {
+      "title": "Homework 1 Written",
+      "course": "CS 162",
+      "dueDate": "2023-02-08T23:59:00",
+      "link": "https://www.gradescope.com/courses/487063/assignments/2614295/submissions/new",
+      "submitted": false
     }
   ],
   "CS 184/284A": [],
