@@ -58,6 +58,13 @@ assignments = {
       "dueDate": "2023-02-03T23:59:00",
       "link": "https://www.gradescope.com/courses/483556/assignments/2617286/submissions/new",
       "submitted": false
+    },
+    {
+      "title": "Homework 1 (Part 2)",
+      "course": "CS 188",
+      "dueDate": "2023-02-03T23:59:00",
+      "link": "https://www.gradescope.com/courses/483556/assignments/2617336/submissions/new",
+      "submitted": false
     }
   ]
 };
