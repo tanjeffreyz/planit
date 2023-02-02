@@ -92,7 +92,7 @@ assignments = {
       "title": "[Ungraded] Project 2 Cheatsheet",
       "course": "CS 188",
       "dueDate": "2023-05-12T23:59:00",
-      "link": "https://www.gradescope.com/courses/483556",
+      "link": "https://www.gradescope.com/courses/483556/assignments/2626459/submissions/new",
       "submitted": false
     },
     {
