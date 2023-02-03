@@ -34,8 +34,8 @@ assignments = {
       "title": "HW 1 Checkpoint",
       "course": "CS 184/284A",
       "dueDate": "2023-02-07T23:59:00",
-      "link": "https://www.gradescope.com/courses/483806/assignments/2596089/submissions/new",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/483806/assignments/2596089/submissions/159164394",
+      "submitted": true
     },
     {
       "title": "Project 1: Rasterizer",
