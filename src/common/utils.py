@@ -27,4 +27,4 @@ def save_data(var_name, obj):
         os.makedirs(DATA_DIR)
     target = os.path.join(DATA_DIR, var_name + '.js')
     with open(target, 'w') as file:
-        file.write(f'{var_name} = {json.dumps(obj, indent=2)};')
+        file.write(f'{var_name} = {json.dumps(obj, indent=2)};\n')

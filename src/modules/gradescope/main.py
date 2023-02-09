@@ -86,7 +86,7 @@ class Gradescope(Module):
     def _get_assignment_due_date(row):
         """Returns the title of an assignment given its row in the table."""
 
-        due_date = row.find('span', {'class': 'submissionTimeChart--dueDate'})
+        due_date = row.find('time', {'class': 'submissionTimeChart--dueDate'})
         if due_date is not None:
             return due_date.text
         else:
