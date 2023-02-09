@@ -27,6 +27,13 @@ assignments = {
       "dueDate": "2023-02-10T23:59:00",
       "link": "https://www.gradescope.com/courses/487063",
       "submitted": false
+    },
+    {
+      "title": "Project 1 Report",
+      "course": "CS 162",
+      "dueDate": "2023-02-28T23:59:00",
+      "link": "https://www.gradescope.com/courses/487063",
+      "submitted": false
     }
   ],
   "CS 184/284A": [
