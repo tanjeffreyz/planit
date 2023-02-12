@@ -25,8 +25,8 @@ assignments = {
       "title": "Project 1 Design Document",
       "course": "CS 162",
       "dueDate": "2023-02-11T23:59:00",
-      "link": "https://www.gradescope.com/courses/487063",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/487063/assignments/2629923/submissions/161356465",
+      "submitted": true
     },
     {
       "title": "Project 1 Report",
