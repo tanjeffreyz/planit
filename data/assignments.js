@@ -48,15 +48,15 @@ assignments = {
       "title": "Project 1: Rasterizer",
       "course": "CS 184/284A",
       "dueDate": "2023-02-14T23:59:00",
-      "link": "https://www.gradescope.com/courses/483806",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/483806/assignments/2627156/submissions/162089755",
+      "submitted": true
     },
     {
       "title": "Project 2 Checkpoint",
       "course": "CS 184/284A",
       "dueDate": "2023-02-21T23:59:00",
-      "link": "https://www.gradescope.com/courses/483806/assignments/2658241/submissions/new",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/483806/assignments/2658241/submissions/162089549",
+      "submitted": true
     },
     {
       "title": "Project 2: MeshEdit",
