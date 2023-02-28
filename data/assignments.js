@@ -80,6 +80,13 @@ assignments = {
       "submitted": true
     },
     {
+      "title": "Project 3-1 Checkpoint",
+      "course": "CS 184/284A",
+      "dueDate": "2023-03-07T23:59:00",
+      "link": "https://www.gradescope.com/courses/483806/assignments/2688745/submissions/new",
+      "submitted": false
+    },
+    {
       "title": "Project 3-2 Checkpoint",
       "course": "CS 184/284A",
       "dueDate": "2023-03-21T23:59:00",
