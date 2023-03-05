@@ -59,7 +59,7 @@ assignments = {
     {
       "title": "Project 1 Staff Solution Essay",
       "course": "CS 162",
-      "dueDate": "2023-03-08T23:59:00",
+      "dueDate": "2023-03-13T23:59:00",
       "link": "https://www.gradescope.com/courses/487063",
       "submitted": false
     }
