@@ -136,11 +136,32 @@ assignments = {
       "submitted": false
     },
     {
+      "title": "Exam 1",
+      "course": "CS 184/284A",
+      "dueDate": "2023-03-07T23:59:00",
+      "link": "https://www.gradescope.com/courses/483806/assignments/2707953/submissions/new",
+      "submitted": false
+    },
+    {
       "title": "Practice Exam 1",
       "course": "CS 184/284A",
       "dueDate": "2023-03-06T23:59:00",
       "link": "https://www.gradescope.com/courses/483806/assignments/2721966/submissions/166953701",
       "submitted": true
+    },
+    {
+      "title": "Exam 1, 1.5x",
+      "course": "CS 184/284A",
+      "dueDate": "2023-03-07T23:59:00",
+      "link": "https://www.gradescope.com/courses/483806/assignments/2725036/submissions/new",
+      "submitted": false
+    },
+    {
+      "title": "Exam 1, 2x",
+      "course": "CS 184/284A",
+      "dueDate": "2023-03-07T23:59:00",
+      "link": "https://www.gradescope.com/courses/483806/assignments/2725038/submissions/new",
+      "submitted": false
     }
   ]
 };
