@@ -39,8 +39,8 @@ assignments = {
       "title": "Homework 3 Written",
       "course": "CS 162",
       "dueDate": "2023-03-07T23:59:00",
-      "link": "https://www.gradescope.com/courses/487063/assignments/2706605/submissions/new",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/487063/assignments/2706605/submissions/167270401",
+      "submitted": true
     },
     {
       "title": "Project 2 Design Document",
