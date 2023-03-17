@@ -125,8 +125,8 @@ assignments = {
       "title": "Project 3-1: Pathtracer",
       "course": "CS 184/284A",
       "dueDate": "2023-03-14T23:59:00",
-      "link": "https://www.gradescope.com/courses/483806",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/483806/assignments/2691593/submissions/169056400",
+      "submitted": true
     },
     {
       "title": "Project 4: ClothSim",
