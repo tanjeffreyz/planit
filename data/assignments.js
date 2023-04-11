@@ -173,7 +173,7 @@ assignments = {
     {
       "title": "Practice Exam 2 - Full Length (SP22)",
       "course": "CS 184/284A",
-      "dueDate": "2023-05-20T00:00:00",
+      "dueDate": "2023-04-20T00:00:00",
       "link": "https://www.gradescope.com/courses/483806",
       "submitted": false
     },
