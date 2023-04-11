@@ -183,6 +183,13 @@ assignments = {
       "dueDate": "2023-04-20T00:00:00",
       "link": "https://www.gradescope.com/courses/483806",
       "submitted": false
+    },
+    {
+      "title": "Exam 2 (TA Test)",
+      "course": "CS 184/284A",
+      "dueDate": "2023-04-13T00:00:00",
+      "link": "https://www.gradescope.com/courses/483806",
+      "submitted": false
     }
   ]
 };
