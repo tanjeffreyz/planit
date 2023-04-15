@@ -62,6 +62,20 @@ assignments = {
       "dueDate": "2023-03-13T23:59:00",
       "link": "https://www.gradescope.com/courses/487063",
       "submitted": false
+    },
+    {
+      "title": "Project 3 Design Document",
+      "course": "CS 162",
+      "dueDate": "2023-04-17T23:59:00",
+      "link": "https://www.gradescope.com/courses/487063",
+      "submitted": false
+    },
+    {
+      "title": "Project 3 Report",
+      "course": "CS 162",
+      "dueDate": "2023-05-04T23:59:00",
+      "link": "https://www.gradescope.com/courses/487063",
+      "submitted": false
     }
   ],
   "CS 184/284A": [
