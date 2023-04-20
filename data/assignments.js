@@ -197,6 +197,27 @@ assignments = {
       "dueDate": "2023-04-20T00:00:00",
       "link": "https://www.gradescope.com/courses/483806/assignments/2807419/submissions/175988795",
       "submitted": true
+    },
+    {
+      "title": "Exam 2",
+      "course": "CS 184/284A",
+      "dueDate": "2023-04-20T23:59:00",
+      "link": "https://www.gradescope.com/courses/483806/assignments/2837537/submissions/new",
+      "submitted": false
+    },
+    {
+      "title": "Exam 2 1.5x",
+      "course": "CS 184/284A",
+      "dueDate": "2023-04-20T23:59:00",
+      "link": "https://www.gradescope.com/courses/483806/assignments/2837660/submissions/new",
+      "submitted": false
+    },
+    {
+      "title": "Exam 2 2x",
+      "course": "CS 184/284A",
+      "dueDate": "2023-04-20T23:59:00",
+      "link": "https://www.gradescope.com/courses/483806/assignments/2837662/submissions/new",
+      "submitted": false
     }
   ]
 };
