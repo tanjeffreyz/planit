@@ -209,14 +209,14 @@ assignments = {
       "title": "Exam 2 1.5x",
       "course": "CS 184/284A",
       "dueDate": "2023-04-20T23:59:00",
-      "link": "https://www.gradescope.com/courses/483806/assignments/2837660/submissions/new",
+      "link": "https://www.gradescope.com/courses/483806",
       "submitted": false
     },
     {
       "title": "Exam 2 2x",
       "course": "CS 184/284A",
       "dueDate": "2023-04-20T23:59:00",
-      "link": "https://www.gradescope.com/courses/483806/assignments/2837662/submissions/new",
+      "link": "https://www.gradescope.com/courses/483806",
       "submitted": false
     }
   ]
