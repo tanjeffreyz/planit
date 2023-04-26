@@ -39,7 +39,7 @@ def save_ical(var_name, obj):
         file.write('PRODID:-//Gradescope//NONSGML Assignments//EN\n')
 
         # loop through assignments in each class
-        for course in list.values():
+        for course in obj.values():
             for assignment in course:
                 # create event entry
                 file.write('BEGIN:VEVENT\n')
