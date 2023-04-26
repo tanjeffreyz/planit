@@ -28,7 +28,7 @@ def save_data(var_name, obj):
     target = os.path.join(DATA_DIR, var_name + '.js')
     with open(target, 'w') as file:
         file.write(f'{var_name} = {json.dumps(obj, indent=2)};\n')
-    save_ical(obj)
+    save_ical(var_name, obj)
 
 def save_ical(var_name, obj):
     target = os.path.join(DATA_DIR, var_name + '.ics')
