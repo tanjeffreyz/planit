@@ -238,7 +238,7 @@ assignments = {
     {
       "title": "Final Beta Round 2",
       "course": "Data 100 Exam Beta Testing",
-      "dueDate": "2023-04-24T23:59:00",
+      "dueDate": "2023-05-02T23:59:00",
       "link": "https://www.gradescope.com/courses/517286",
       "submitted": false
     }
