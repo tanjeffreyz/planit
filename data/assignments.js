@@ -74,8 +74,8 @@ assignments = {
       "title": "Project 3 Report",
       "course": "CS 162",
       "dueDate": "2023-05-04T23:59:00",
-      "link": "https://www.gradescope.com/courses/487063",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/487063/assignments/2824814/submissions/179467956",
+      "submitted": true
     }
   ],
   "CS 184/284A": [
