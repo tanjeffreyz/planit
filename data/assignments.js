@@ -218,13 +218,6 @@ assignments = {
       "dueDate": "2023-04-20T23:59:00",
       "link": "https://www.gradescope.com/courses/483806",
       "submitted": false
-    },
-    {
-      "title": "Grade Report",
-      "course": "CS 184/284A",
-      "dueDate": "2023-05-12T23:59:00",
-      "link": "https://www.gradescope.com/courses/483806",
-      "submitted": false
     }
   ],
   "Data 100 Exam Beta Testing": [
