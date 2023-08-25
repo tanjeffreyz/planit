@@ -24,8 +24,12 @@ jobs:
         git config --global pull.rebase false
         git remote add planit 'https://github.com/tanjeffreyz/planit.git'
         git fetch planit
-        git checkout planit/main -- .
-        git checkout HEAD -- data
+        git checkout planit/main src
+        git checkout planit/main main.py
+        git checkout planit/main index.html
+        git checkout planit/main docs
+        git checkout planit/main .gitignore
+        git checkout planit/main requirements.txt
         git commit -m 'Upgraded to latest Planit version' || true
     
     - name: Set up Python 3.10
