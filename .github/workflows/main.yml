@@ -16,6 +16,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Upgrade to latest Planit version
       run: |
@@ -27,7 +29,6 @@ jobs:
         git checkout planit/main -- .
         git checkout HEAD -- data
         git checkout HEAD -- .github
-        
         git commit -m 'Upgraded to latest Planit version' || true
     
     - name: Set up Python 3.10
