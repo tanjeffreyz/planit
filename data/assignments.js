@@ -31,14 +31,5 @@ assignments = {
       "link": "https://www.gradescope.com/courses/575262",
       "submitted": false
     }
-  ],
-  "EECS 127-227AT-LEC-001": [
-    {
-      "title": "HW 0",
-      "course": "EECS 127-227AT-LEC-001",
-      "dueDate": "2023-08-30T23:00:00",
-      "link": "https://www.gradescope.com/courses/566395",
-      "submitted": false
-    }
   ]
 };
