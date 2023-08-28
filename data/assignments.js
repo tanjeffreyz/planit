@@ -15,7 +15,43 @@ assignments = {
       "submitted": true
     }
   ],
-  "CS 180/280A": [],
+  "CS 180/280A": [
+    {
+      "title": "Project 1 - Colorizing the Prokudin-Gorskii Photo Collection",
+      "course": "CS 180/280A",
+      "dueDate": "2023-09-06T23:59:00",
+      "link": "https://www.gradescope.com/courses/581661",
+      "submitted": false
+    },
+    {
+      "title": "Project 2 - Fun with Filters and Frequencies",
+      "course": "CS 180/280A",
+      "dueDate": "2023-09-19T23:59:00",
+      "link": "https://www.gradescope.com/courses/581661",
+      "submitted": false
+    },
+    {
+      "title": "Project 3 - Face Morphing and Modelling a Photo Collection",
+      "course": "CS 180/280A",
+      "dueDate": "2023-10-03T23:59:00",
+      "link": "https://www.gradescope.com/courses/581661",
+      "submitted": false
+    },
+    {
+      "title": "Project 4 - (Auto)stitching and photo mosaics (Checkpoint)",
+      "course": "CS 180/280A",
+      "dueDate": "2023-10-13T23:59:00",
+      "link": "https://www.gradescope.com/courses/581661",
+      "submitted": false
+    },
+    {
+      "title": "Project 4 - (Auto)stitching and photo mosaics (Final)",
+      "course": "CS 180/280A",
+      "dueDate": "2023-10-24T23:59:00",
+      "link": "https://www.gradescope.com/courses/581661",
+      "submitted": false
+    }
+  ],
   "CS 189/289A": [],
   "EECS 127-227AT-LEC-001": [
     {
