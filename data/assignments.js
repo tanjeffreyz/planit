@@ -16,7 +16,15 @@ assignments = {
     }
   ],
   "CS 180/280A": [],
-  "CS 189/289A": [],
+  "CS 189/289A": [
+    {
+      "title": "HW 1 Code",
+      "course": "CS 189/289A",
+      "dueDate": "2023-09-08T23:59:00",
+      "link": "https://www.gradescope.com/courses/575262",
+      "submitted": false
+    }
+  ],
   "EECS 127-227AT-LEC-001": [
     {
       "title": "HW 0",
