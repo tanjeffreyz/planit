@@ -15,10 +15,17 @@ assignments = {
       "submitted": true
     },
     {
+      "title": "hw1",
+      "course": "COMPSCI 164-LEC-001",
+      "dueDate": "2023-09-14T21:00:00",
+      "link": "https://www.gradescope.com/courses/572216",
+      "submitted": false
+    },
+    {
       "title": "Drill 2",
       "course": "COMPSCI 164-LEC-001",
       "dueDate": "2023-09-07T21:00:00",
-      "link": "https://www.gradescope.com/courses/572216",
+      "link": "https://www.gradescope.com/courses/572216/assignments/3208606/submissions/new",
       "submitted": false
     },
     {
