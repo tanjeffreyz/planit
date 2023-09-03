@@ -53,5 +53,6 @@ assignments = {
       "link": "https://www.gradescope.com/courses/575262",
       "submitted": false
     }
-  ]
+  ],
+  "CS198-008": []
 };
