@@ -9,7 +9,7 @@ information about assignments. **HTTP requests** are used alongside **Beautiful 
 which is automatically executed multiple times a day using **GitHub Actions**.
 
 <div align="center">
-    <img src="docs/planit.png" />
+    <img src="docs/planit.png" width="80%" />
 </div>
 
 
