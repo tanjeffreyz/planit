@@ -27,6 +27,13 @@ assignments = {
       "dueDate": "2023-09-07T21:00:00",
       "link": "https://www.gradescope.com/courses/572216/assignments/3208606/submissions/190301789",
       "submitted": true
+    },
+    {
+      "title": "Drill 3",
+      "course": "COMPSCI 164-LEC-001",
+      "dueDate": "2023-09-14T21:00:00",
+      "link": "https://www.gradescope.com/courses/572216",
+      "submitted": false
     }
   ],
   "CS 180/280A": [
