@@ -32,7 +32,7 @@ assignments = {
       "title": "Drill 3",
       "course": "COMPSCI 164-LEC-001",
       "dueDate": "2023-09-14T21:00:00",
-      "link": "https://www.gradescope.com/courses/572216",
+      "link": "https://www.gradescope.com/courses/572216/assignments/3283256/submissions/new",
       "submitted": false
     }
   ],
