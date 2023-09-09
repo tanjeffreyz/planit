@@ -27,7 +27,7 @@ jobs:
         git remote add planit 'https://github.com/tanjeffreyz/planit.git'
         git fetch planit
         git checkout planit/main -- .
-        git checkout HEAD -- data
+        git checkout HEAD -- data || true
         git checkout HEAD -- .github
         git commit -m 'Upgraded to latest Planit version' || true
     
