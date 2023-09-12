@@ -43,6 +43,13 @@ assignments = {
       "dueDate": "2023-09-06T23:59:00",
       "link": "https://www.gradescope.com/courses/581661/assignments/3186346/submissions/189914303",
       "submitted": true
+    },
+    {
+      "title": "Project 2 - Fun with Filters and Frequencies",
+      "course": "CS 180/280A",
+      "dueDate": "2023-09-18T23:59:00",
+      "link": "https://www.gradescope.com/courses/581661",
+      "submitted": false
     }
   ],
   "CS 189/289A": [
@@ -89,6 +96,13 @@ assignments = {
       "dueDate": "2023-09-10T23:59:00",
       "link": "https://www.gradescope.com/courses/572351/assignments/3264956/submissions/190653419",
       "submitted": true
+    },
+    {
+      "title": "Lab 02",
+      "course": "CS198-008",
+      "dueDate": "2023-09-16T23:59:00",
+      "link": "https://www.gradescope.com/courses/572351/assignments/3310726/submissions/new",
+      "submitted": false
     }
   ]
 };
