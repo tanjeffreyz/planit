@@ -18,8 +18,8 @@ assignments = {
       "title": "hw1",
       "course": "COMPSCI 164-LEC-001",
       "dueDate": "2023-09-14T21:00:00",
-      "link": "https://www.gradescope.com/courses/572216",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/572216/assignments/3207450/submissions/192232186",
+      "submitted": true
     },
     {
       "title": "Drill 2",
@@ -101,8 +101,8 @@ assignments = {
       "title": "Lab 02",
       "course": "CS198-008",
       "dueDate": "2023-09-16T23:59:00",
-      "link": "https://www.gradescope.com/courses/572351/assignments/3310726/submissions/new",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/572351/assignments/3310726/submissions/192232735",
+      "submitted": true
     }
   ]
 };
