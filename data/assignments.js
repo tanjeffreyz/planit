@@ -103,6 +103,13 @@ assignments = {
       "dueDate": "2023-09-16T23:59:00",
       "link": "https://www.gradescope.com/courses/572351/assignments/3310726/submissions/192232735",
       "submitted": true
+    },
+    {
+      "title": "Vitamin 2",
+      "course": "CS198-008",
+      "dueDate": "2023-09-16T23:59:00",
+      "link": "https://www.gradescope.com/courses/572351/assignments/3316849/submissions/new",
+      "submitted": false
     }
   ]
 };
