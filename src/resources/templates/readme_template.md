@@ -43,18 +43,28 @@ In the "Secret" field, enter either your username or password depending on the v
     __SECRET_NAMES__
 </table>
 
-6. Next, go to the following link:
+6. Now, go to the following link:
+```
+https://github.com/YOUR_USERNAME/REPOSITORY_NAME/settings/actions
+```
+
+7. Under "Workflow Permissions", make sure that "Read and write permissions" is enabled:
+<div align="center">
+    <img src="docs/workflow_perms.png" width="60%" />
+</div>
+
+8. Next, go to the following link:
 ```
 https://github.com/YOUR_USERNAME/REPOSITORY_NAME/settings/pages
 ```
 
-7. In the dropdown menu under "Branch", select "github-pages" and click
+9. In the dropdown menu under "Branch", select "github-pages" and click
 <a href="#"><img src="docs/save.png" height="20px" /></a>:
 <div align="center">
     <img src="docs/github_pages_prompt.png" width="60%" />
 </div>
 
-8. Lastly, using the file navigation in your repository's home page, go to `data/assignments.js`, **delete** the file, and click 
+10. Lastly, using the file navigation in your repository's home page, go to `data/assignments.js`, **delete** the file, and click 
 <a href="#"><img src="docs/commit_changes.png" height="20px" /></a>. 
 
 <br>
@@ -64,14 +74,3 @@ personal planner at the link below, which you can visit (and bookmark!) on any o
 ```
 https://YOUR_USERNAME.github.io/REPOSITORY_NAME
 ```
-
-<br>
-
-## Troubleshooting
-If you see build errors in GitHub Actions and your planner isn't updating, make sure it has the proper permissions at the bottom of this page:
-```
-https://github.com/YOUR_USERNAME/REPOSITORY_NAME/settings/actions
-```
-<div align="center">
-    <img src="docs/workflow_perms.png" width="60%" />
-</div>
