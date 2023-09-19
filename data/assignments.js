@@ -46,8 +46,8 @@ assignments = {
       "title": "hw2-code",
       "course": "COMPSCI 164-LEC-001",
       "dueDate": "2023-09-21T21:00:00",
-      "link": "https://www.gradescope.com/courses/572216",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/572216/assignments/3327433/submissions/194413360",
+      "submitted": true
     }
   ],
   "CS 180/280A": [
