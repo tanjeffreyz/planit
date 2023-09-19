@@ -46,7 +46,7 @@ assignments = {
       "title": "hw2-code",
       "course": "COMPSCI 164-LEC-001",
       "dueDate": "2023-09-21T21:00:00",
-      "link": "https://www.gradescope.com/courses/572216/assignments/3327433/submissions/194413360",
+      "link": "https://www.gradescope.com/courses/572216/assignments/3327433/submissions/194418527",
       "submitted": true
     }
   ],
@@ -62,7 +62,7 @@ assignments = {
       "title": "Project 2 - Fun with Filters and Frequencies",
       "course": "CS 180/280A",
       "dueDate": "2023-09-18T23:59:00",
-      "link": "https://www.gradescope.com/courses/581661/assignments/3186347/submissions/193824849",
+      "link": "https://www.gradescope.com/courses/581661/assignments/3186347/submissions/194421252",
       "submitted": true
     }
   ],
