@@ -62,8 +62,15 @@ assignments = {
       "title": "Project 2 - Fun with Filters and Frequencies",
       "course": "CS 180/280A",
       "dueDate": "2023-09-18T23:59:00",
-      "link": "https://www.gradescope.com/courses/581661/assignments/3186347/submissions/194809085",
+      "link": "https://www.gradescope.com/courses/581661/assignments/3186347/submissions/194814806",
       "submitted": true
+    },
+    {
+      "title": "Project 3 - Face Morphing and Modelling a Photo Collection",
+      "course": "CS 180/280A",
+      "dueDate": "2023-10-02T23:59:00",
+      "link": "https://www.gradescope.com/courses/581661",
+      "submitted": false
     }
   ],
   "CS 189/289A": [
