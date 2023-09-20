@@ -39,14 +39,14 @@ assignments = {
       "title": "hw2-written",
       "course": "COMPSCI 164-LEC-001",
       "dueDate": "2023-09-21T21:00:00",
-      "link": "https://www.gradescope.com/courses/572216/assignments/3327431/submissions/new",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/572216/assignments/3327431/submissions/194704702",
+      "submitted": true
     },
     {
       "title": "hw2-code",
       "course": "COMPSCI 164-LEC-001",
       "dueDate": "2023-09-21T21:00:00",
-      "link": "https://www.gradescope.com/courses/572216/assignments/3327433/submissions/194432733",
+      "link": "https://www.gradescope.com/courses/572216/assignments/3327433/submissions/194700693",
       "submitted": true
     }
   ],
