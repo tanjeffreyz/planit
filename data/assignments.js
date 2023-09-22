@@ -48,6 +48,13 @@ assignments = {
       "dueDate": "2023-09-21T21:00:00",
       "link": "https://www.gradescope.com/courses/572216/assignments/3327433/submissions/194758420",
       "submitted": true
+    },
+    {
+      "title": "hw3",
+      "course": "COMPSCI 164-LEC-001",
+      "dueDate": "2023-10-05T21:00:00",
+      "link": "https://www.gradescope.com/courses/572216",
+      "submitted": false
     }
   ],
   "CS 180/280A": [
