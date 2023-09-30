@@ -115,13 +115,6 @@ assignments = {
       "dueDate": "2023-10-06T23:59:00",
       "link": "https://www.gradescope.com/courses/575262",
       "submitted": false
-    },
-    {
-      "title": "HW 3 Code",
-      "course": "CS 189/289A",
-      "dueDate": "2023-10-06T23:59:00",
-      "link": "https://www.gradescope.com/courses/575262",
-      "submitted": false
     }
   ],
   "CS198-008": [
