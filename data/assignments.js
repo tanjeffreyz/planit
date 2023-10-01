@@ -76,7 +76,7 @@ assignments = {
       "title": "Project 3 - Face Morphing and Modelling a Photo Collection",
       "course": "CS 180/280A",
       "dueDate": "2023-10-02T23:59:00",
-      "link": "https://www.gradescope.com/courses/581661/assignments/3186348/submissions/198310196",
+      "link": "https://www.gradescope.com/courses/581661/assignments/3186348/submissions/198349226",
       "submitted": true
     }
   ],
