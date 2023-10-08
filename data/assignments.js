@@ -206,15 +206,15 @@ assignments = {
       "title": "Lab 05",
       "course": "CS198-008",
       "dueDate": "2023-10-07T23:59:00",
-      "link": "https://www.gradescope.com/courses/572351/assignments/3451449/submissions/new",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/572351/assignments/3451449/submissions/200495158",
+      "submitted": true
     },
     {
       "title": "Vitamin 5",
       "course": "CS198-008",
       "dueDate": "2023-10-07T23:59:00",
-      "link": "https://www.gradescope.com/courses/572351/assignments/3463644/submissions/new",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/572351/assignments/3463644/submissions/200500047",
+      "submitted": true
     }
   ]
 };
