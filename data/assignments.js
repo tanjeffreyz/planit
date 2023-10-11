@@ -215,6 +215,13 @@ assignments = {
       "dueDate": "2023-10-07T23:59:00",
       "link": "https://www.gradescope.com/courses/572351/assignments/3463644/submissions/200500047",
       "submitted": true
+    },
+    {
+      "title": "Vitamin 6",
+      "course": "CS198-008",
+      "dueDate": "2023-10-14T23:59:00",
+      "link": "https://www.gradescope.com/courses/572351/assignments/3499356/submissions/new",
+      "submitted": false
     }
   ]
 };
