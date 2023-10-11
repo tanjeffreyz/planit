@@ -90,7 +90,7 @@ assignments = {
       "title": "Project 4 - (Auto)stitching and photo mosaics (Checkpoint)",
       "course": "CS 180/280A",
       "dueDate": "2023-10-12T23:59:00",
-      "link": "https://www.gradescope.com/courses/581661/assignments/3186349/submissions/201067537",
+      "link": "https://www.gradescope.com/courses/581661/assignments/3186349/submissions/201659631",
       "submitted": true
     },
     {
