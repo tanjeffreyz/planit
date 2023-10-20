@@ -169,7 +169,7 @@ assignments = {
       "title": "HW 4 Written",
       "course": "CS 189/289A",
       "dueDate": "2023-10-20T23:59:00",
-      "link": "https://www.gradescope.com/courses/575262/assignments/3543821/submissions/204628027",
+      "link": "https://www.gradescope.com/courses/575262/assignments/3543821/submissions/204630413",
       "submitted": true
     }
   ],
@@ -262,8 +262,8 @@ assignments = {
       "title": "Vitamin 7",
       "course": "CS198-008",
       "dueDate": "2023-10-21T23:59:00",
-      "link": "https://www.gradescope.com/courses/572351/assignments/3530650/submissions/new",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/572351/assignments/3530650/submissions/204631674",
+      "submitted": true
     },
     {
       "title": "Lab 07",
