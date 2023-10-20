@@ -113,6 +113,13 @@ assignments = {
       "dueDate": "2023-10-25T23:59:00",
       "link": "https://www.gradescope.com/courses/581661",
       "submitted": false
+    },
+    {
+      "title": "Final Project Proposal (No need to submit if you choose to do pre-canned topics)",
+      "course": "CS 180/280A",
+      "dueDate": "2023-11-09T23:59:00",
+      "link": "https://www.gradescope.com/courses/581661",
+      "submitted": false
     }
   ],
   "CS 189/289A": [
