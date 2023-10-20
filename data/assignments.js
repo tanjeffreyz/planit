@@ -169,8 +169,8 @@ assignments = {
       "title": "HW 4 Written",
       "course": "CS 189/289A",
       "dueDate": "2023-10-20T23:59:00",
-      "link": "https://www.gradescope.com/courses/575262",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/575262/assignments/3543821/submissions/204628027",
+      "submitted": true
     }
   ],
   "CS198-008": [
