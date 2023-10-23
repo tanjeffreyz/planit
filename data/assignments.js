@@ -271,6 +271,13 @@ assignments = {
       "dueDate": "2023-10-21T23:59:00",
       "link": "https://www.gradescope.com/courses/572351/assignments/3530994/submissions/204897314",
       "submitted": true
+    },
+    {
+      "title": "Lab 08",
+      "course": "CS198-008",
+      "dueDate": "2023-10-28T23:59:00",
+      "link": "https://www.gradescope.com/courses/572351/assignments/3571617/submissions/new",
+      "submitted": false
     }
   ]
 };
