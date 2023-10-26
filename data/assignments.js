@@ -111,8 +111,8 @@ assignments = {
       "title": "Project 4 - (Auto)stitching and photo mosaics (Final)",
       "course": "CS 180/280A",
       "dueDate": "2023-10-25T23:59:00",
-      "link": "https://www.gradescope.com/courses/581661",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/581661/assignments/3186350/submissions/206401722",
+      "submitted": true
     },
     {
       "title": "Final Project Proposal (No need to submit if you choose to do pre-canned topics)",
