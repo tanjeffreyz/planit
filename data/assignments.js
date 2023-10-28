@@ -283,8 +283,8 @@ assignments = {
       "title": "Vitamin 8",
       "course": "CS198-008",
       "dueDate": "2023-10-28T23:59:00",
-      "link": "https://www.gradescope.com/courses/572351/assignments/3578856/submissions/new",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/572351/assignments/3578856/submissions/207280036",
+      "submitted": true
     }
   ]
 };
