@@ -292,6 +292,13 @@ assignments = {
       "dueDate": "2023-11-05T23:59:00",
       "link": "https://www.gradescope.com/courses/572351/assignments/3609753/submissions/new",
       "submitted": false
+    },
+    {
+      "title": "Vitamin 9",
+      "course": "CS198-008",
+      "dueDate": "2023-11-04T23:59:00",
+      "link": "https://www.gradescope.com/courses/572351/assignments/3610558/submissions/new",
+      "submitted": false
     }
   ]
 };
