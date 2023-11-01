@@ -171,6 +171,20 @@ assignments = {
       "dueDate": "2023-10-20T23:59:00",
       "link": "https://www.gradescope.com/courses/575262/assignments/3543821/submissions/204630413",
       "submitted": true
+    },
+    {
+      "title": "HW5 Code",
+      "course": "CS 189/289A",
+      "dueDate": "2023-11-03T23:59:00",
+      "link": "https://www.gradescope.com/courses/575262",
+      "submitted": false
+    },
+    {
+      "title": "HW5 Written",
+      "course": "CS 189/289A",
+      "dueDate": "2023-11-03T23:59:00",
+      "link": "https://www.gradescope.com/courses/575262",
+      "submitted": false
     }
   ],
   "CS198-008": [
@@ -275,14 +289,14 @@ assignments = {
     {
       "title": "Lab 08",
       "course": "CS198-008",
-      "dueDate": "2023-10-28T23:59:00",
+      "dueDate": "2023-11-04T23:59:00",
       "link": "https://www.gradescope.com/courses/572351/assignments/3571617/submissions/207315241",
       "submitted": true
     },
     {
       "title": "Vitamin 8",
       "course": "CS198-008",
-      "dueDate": "2023-10-28T23:59:00",
+      "dueDate": "2023-11-04T23:59:00",
       "link": "https://www.gradescope.com/courses/572351/assignments/3578856/submissions/207280036",
       "submitted": true
     },
