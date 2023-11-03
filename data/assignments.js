@@ -80,7 +80,7 @@ assignments = {
     {
       "title": "hw7",
       "course": "COMPSCI 164-LEC-001",
-      "dueDate": "2023-11-16T21:00:00",
+      "dueDate": "2023-11-09T21:00:00",
       "link": "https://www.gradescope.com/courses/572216",
       "submitted": false
     }
