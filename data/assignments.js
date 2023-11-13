@@ -213,6 +213,13 @@ assignments = {
       "dueDate": "2023-11-17T11:59:00",
       "link": "https://www.gradescope.com/courses/575262",
       "submitted": false
+    },
+    {
+      "title": "HW 6 Written",
+      "course": "CS 189/289A",
+      "dueDate": "2023-11-17T23:59:00",
+      "link": "https://www.gradescope.com/courses/575262",
+      "submitted": false
     }
   ],
   "CS198-008": [
