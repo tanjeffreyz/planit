@@ -88,8 +88,8 @@ assignments = {
       "title": "hw8-benchmarks",
       "course": "COMPSCI 164-LEC-001",
       "dueDate": "2023-11-16T21:00:00",
-      "link": "https://www.gradescope.com/courses/572216",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/572216/assignments/3662158/submissions/213166805",
+      "submitted": true
     }
   ],
   "CS 180/280A": [
