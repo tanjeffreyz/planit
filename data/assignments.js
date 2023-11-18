@@ -218,15 +218,15 @@ assignments = {
       "title": "HW 6 Code",
       "course": "CS 189/289A",
       "dueDate": "2023-11-17T23:59:00",
-      "link": "https://www.gradescope.com/courses/575262",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/575262/assignments/3660461/submissions/213997988",
+      "submitted": true
     },
     {
       "title": "HW 6 Written",
       "course": "CS 189/289A",
       "dueDate": "2023-11-17T23:59:00",
-      "link": "https://www.gradescope.com/courses/575262",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/575262/assignments/3677415/submissions/213998127",
+      "submitted": true
     }
   ],
   "CS198-008": [
