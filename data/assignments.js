@@ -155,6 +155,20 @@ assignments = {
       "dueDate": "2023-12-09T23:59:00",
       "link": "https://www.gradescope.com/courses/581661/assignments/3779474/submissions/218868149",
       "submitted": true
+    },
+    {
+      "title": "[Custom] Final Project Writeup",
+      "course": "CS 180/280A",
+      "dueDate": "2023-12-13T23:59:00",
+      "link": "https://www.gradescope.com/courses/581661",
+      "submitted": false
+    },
+    {
+      "title": "[Custom] Final Project Code",
+      "course": "CS 180/280A",
+      "dueDate": "2023-12-13T12:59:00",
+      "link": "https://www.gradescope.com/courses/581661",
+      "submitted": false
     }
   ],
   "CS 189/289A": [
