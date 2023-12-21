@@ -222,14 +222,14 @@ assignments = {
       "submitted": true
     },
     {
-      "title": "HW5 Code",
+      "title": "HW 5 Code",
       "course": "CS 189/289A",
       "dueDate": "2023-11-03T23:59:00",
       "link": "https://www.gradescope.com/courses/575262/assignments/3616125/submissions/209350470",
       "submitted": true
     },
     {
-      "title": "HW5 Written",
+      "title": "HW 5 Written",
       "course": "CS 189/289A",
       "dueDate": "2023-11-03T23:59:00",
       "link": "https://www.gradescope.com/courses/575262/assignments/3616140/submissions/209354911",
