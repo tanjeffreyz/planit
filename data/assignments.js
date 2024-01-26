@@ -20,6 +20,13 @@ assignments = {
       "dueDate": "2024-01-26T23:00:00",
       "link": "https://www.gradescope.com/courses/699270",
       "submitted": false
+    },
+    {
+      "title": "Homework 03 PDF",
+      "course": "EECS 127/227AT-LEC-001",
+      "dueDate": "2024-02-02T23:00:00",
+      "link": "https://www.gradescope.com/courses/699270",
+      "submitted": false
     }
   ]
 };
