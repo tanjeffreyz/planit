@@ -9,7 +9,7 @@ html, body {
 }
 
 /* Custom Scroll Bars */
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
     width: 10px;
 }
 
@@ -24,4 +24,13 @@ body::-webkit-scrollbar-thumb {
 
 ::-webkit-scrollbar-thumb:hover {
     background: #aeaeae;
+} */
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
