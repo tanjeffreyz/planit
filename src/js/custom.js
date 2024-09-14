@@ -138,7 +138,7 @@ function init() {
 
     // Prepare HTML for charts
     const div = document.createElement('div');
-    div.className = 'my-5';
+    div.className = 'mx-3 my-5';
     
     const courseTitle = document.createElement('p');
     courseTitle.textContent = courseName;
