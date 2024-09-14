@@ -9,8 +9,8 @@ html, body {
 }
 
 /* Custom Scroll Bars */
-/* body::-webkit-scrollbar {
-    width: 10px;
+body::-webkit-scrollbar {
+    width: 6px;
 }
 
 body::-webkit-scrollbar-track {
@@ -19,18 +19,9 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
     background: #c1c1c1;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
     background: #aeaeae;
-} */
-
-body::-webkit-scrollbar {
-  display: none;
-}
-
-body {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
 }
