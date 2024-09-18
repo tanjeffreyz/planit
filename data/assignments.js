@@ -10,7 +10,7 @@ assignments = {
     {
       "title": "Project Group Formation [2/3/4 Units Students]",
       "course": "CS 194/294-196",
-      "dueDate": "2024-09-18T23:59:00",
+      "dueDate": "2024-09-21T23:59:00",
       "link": "https://www.gradescope.com/courses/852247/assignments/4915322/submissions/new",
       "submitted": false
     },
@@ -26,6 +26,13 @@ assignments = {
       "course": "CS 194/294-196",
       "dueDate": "2024-09-22T23:59:00",
       "link": "https://www.gradescope.com/courses/852247/assignments/4973021/submissions/new",
+      "submitted": false
+    },
+    {
+      "title": "Quiz 1",
+      "course": "CS 194/294-196",
+      "dueDate": "2024-09-23T15:10:00",
+      "link": "https://www.gradescope.com/courses/852247/assignments/4987096/submissions/new",
       "submitted": false
     }
   ],
