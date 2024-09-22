@@ -41,6 +41,13 @@ assignments = {
       "dueDate": "2024-09-30T15:10:00",
       "link": "https://www.gradescope.com/courses/852247/assignments/4999860/submissions/new",
       "submitted": false
+    },
+    {
+      "title": "Project Proposal",
+      "course": "CS 194/294-196",
+      "dueDate": "2024-09-30T23:59:00",
+      "link": "https://www.gradescope.com/courses/852247",
+      "submitted": false
     }
   ],
   "CS188": [
