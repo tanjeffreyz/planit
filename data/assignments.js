@@ -25,8 +25,8 @@ assignments = {
       "title": "9/23 Reading Summary & Questions",
       "course": "CS 194/294-196",
       "dueDate": "2024-09-22T23:59:00",
-      "link": "https://www.gradescope.com/courses/852247/assignments/4973021/submissions/new",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/852247/assignments/4973021/submissions/270064307",
+      "submitted": true
     },
     {
       "title": "Quiz 1",
