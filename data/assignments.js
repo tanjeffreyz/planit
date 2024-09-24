@@ -48,6 +48,13 @@ assignments = {
       "dueDate": "2024-09-30T23:59:00",
       "link": "https://www.gradescope.com/courses/852247",
       "submitted": false
+    },
+    {
+      "title": "9/30 Reading Summary & Questions",
+      "course": "CS 194/294-196",
+      "dueDate": "2024-09-29T23:59:00",
+      "link": "https://www.gradescope.com/courses/852247/assignments/5024425/submissions/new",
+      "submitted": false
     }
   ],
   "CS188": [
@@ -118,8 +125,8 @@ assignments = {
       "title": "Homework 3 [Electronic Component]",
       "course": "CS188",
       "dueDate": "2024-09-24T23:59:00",
-      "link": "https://www.gradescope.com/courses/825036/assignments/4951675/submissions/new",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/825036/assignments/4951675/submissions/270626372",
+      "submitted": true
     },
     {
       "title": "Homework 3 [Written Component]",
