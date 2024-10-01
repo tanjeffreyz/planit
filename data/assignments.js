@@ -153,8 +153,8 @@ assignments = {
       "title": "Homework 4 [Electronic Component]",
       "course": "CS188",
       "dueDate": "2024-10-01T23:59:00",
-      "link": "https://www.gradescope.com/courses/825036/assignments/5003266/submissions/new",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/825036/assignments/5003266/submissions/273390003",
+      "submitted": true
     },
     {
       "title": "Homework 3 [Self-Assessment]",
