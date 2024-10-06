@@ -195,8 +195,8 @@ assignments = {
       "title": "Homework 5 [Electronic Component]",
       "course": "CS188",
       "dueDate": "2024-10-08T23:59:00",
-      "link": "https://www.gradescope.com/courses/825036/assignments/5050500/submissions/new",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/825036/assignments/5050500/submissions/274965002",
+      "submitted": true
     },
     {
       "title": "Homework 5 [Written Component]",
