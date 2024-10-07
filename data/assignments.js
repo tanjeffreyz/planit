@@ -64,18 +64,18 @@ assignments = {
       "submitted": true
     },
     {
-      "title": "10/7 Reading Summary & Questions",
-      "course": "CS 194/294-196",
-      "dueDate": "2024-10-06T23:59:00",
-      "link": "https://www.gradescope.com/courses/852247/assignments/5072751/submissions/274904895",
-      "submitted": true
-    },
-    {
       "title": "Quiz 4",
       "course": "CS 194/294-196",
       "dueDate": "2024-10-07T15:10:00",
       "link": "https://www.gradescope.com/courses/852247/assignments/5097636/submissions/274903302",
       "submitted": true
+    },
+    {
+      "title": "10/14 Reading Summary & Questions",
+      "course": "CS 194/294-196",
+      "dueDate": "2024-09-15T23:59:00",
+      "link": "https://www.gradescope.com/courses/852247",
+      "submitted": false
     }
   ],
   "CS188": [
