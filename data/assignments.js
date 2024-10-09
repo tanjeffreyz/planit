@@ -83,6 +83,27 @@ assignments = {
       "dueDate": "2024-10-13T23:59:00",
       "link": "https://www.gradescope.com/courses/852247/assignments/5117622/submissions/new",
       "submitted": false
+    },
+    {
+      "title": "Lab 01, Submission (Restaurant Analyzing Pipeline)",
+      "course": "CS 194/294-196",
+      "dueDate": "2024-10-15T11:39:00",
+      "link": "https://www.gradescope.com/courses/852247",
+      "submitted": false
+    },
+    {
+      "title": "Lab 02, Writing Attacks",
+      "course": "CS 194/294-196",
+      "dueDate": "2024-10-15T11:41:00",
+      "link": "https://www.gradescope.com/courses/852247",
+      "submitted": false
+    },
+    {
+      "title": "Lab 03, Submission (Writing LLM Defense)",
+      "course": "CS 194/294-196",
+      "dueDate": "2024-10-15T11:43:00",
+      "link": "https://www.gradescope.com/courses/852247",
+      "submitted": false
     }
   ],
   "CS188": [
