@@ -92,7 +92,7 @@ assignments = {
       "submitted": false
     },
     {
-      "title": "Lab 02, Writing Attacks",
+      "title": "Lab 02, Submission  (Writing Attacks)",
       "course": "CS 194/294-196",
       "dueDate": "2024-10-15T11:41:00",
       "link": "https://www.gradescope.com/courses/852247",
@@ -103,6 +103,13 @@ assignments = {
       "course": "CS 194/294-196",
       "dueDate": "2024-10-15T11:43:00",
       "link": "https://www.gradescope.com/courses/852247",
+      "submitted": false
+    },
+    {
+      "title": "Quiz 5",
+      "course": "CS 194/294-196",
+      "dueDate": "2024-10-14T15:10:00",
+      "link": "https://www.gradescope.com/courses/852247/assignments/5132029/submissions/new",
       "submitted": false
     }
   ],
