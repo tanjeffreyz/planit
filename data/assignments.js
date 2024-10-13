@@ -109,8 +109,8 @@ assignments = {
       "title": "Quiz 5",
       "course": "CS 194/294-196",
       "dueDate": "2024-10-14T15:10:00",
-      "link": "https://www.gradescope.com/courses/852247/assignments/5132029/submissions/new",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/852247/assignments/5132029/submissions/277498015",
+      "submitted": true
     }
   ],
   "CS188": [
