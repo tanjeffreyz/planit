@@ -290,7 +290,7 @@ assignments = {
       "submitted": false
     },
     {
-      "title": "HW 7 [Electronic Component]",
+      "title": "Homework 7 [Electronic Component]",
       "course": "CS188",
       "dueDate": "2024-10-29T23:59:00",
       "link": "https://www.gradescope.com/courses/825036",
