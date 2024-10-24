@@ -132,6 +132,13 @@ assignments = {
       "dueDate": "2024-10-27T23:59:00",
       "link": "https://www.gradescope.com/courses/852247/assignments/5197544/submissions/new",
       "submitted": false
+    },
+    {
+      "title": "Quiz 7",
+      "course": "CS 194/294-196",
+      "dueDate": "2024-10-28T15:10:00",
+      "link": "https://www.gradescope.com/courses/852247/assignments/5215207/submissions/new",
+      "submitted": false
     }
   ],
   "CS188": [
