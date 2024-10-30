@@ -307,15 +307,15 @@ assignments = {
       "title": "Homework 7 [Electronic Component]",
       "course": "CS188",
       "dueDate": "2024-10-29T23:59:00",
-      "link": "https://www.gradescope.com/courses/825036/assignments/5172281/submissions/new",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/825036/assignments/5172281/submissions/283487936",
+      "submitted": true
     },
     {
       "title": "Homework 6 [Self-Assessment]",
       "course": "CS188",
       "dueDate": "2024-10-29T23:59:00",
-      "link": "https://www.gradescope.com/courses/825036",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/825036/assignments/5202995/submissions/283465917",
+      "submitted": true
     },
     {
       "title": "Homework 7 [Written Component]",
