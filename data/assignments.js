@@ -358,6 +358,13 @@ assignments = {
       "dueDate": "2024-11-14T23:59:00",
       "link": "https://www.gradescope.com/courses/825036",
       "submitted": false
+    },
+    {
+      "title": "Homework 9 [Electronic Component]",
+      "course": "CS188",
+      "dueDate": "2024-11-12T23:59:00",
+      "link": "https://www.gradescope.com/courses/825036",
+      "submitted": false
     }
   ]
 };
