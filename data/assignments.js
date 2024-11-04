@@ -334,21 +334,21 @@ assignments = {
     {
       "title": "Homework 8 [Electronic Component]",
       "course": "CS188",
-      "dueDate": "2024-11-05T23:59:00",
+      "dueDate": "2024-11-06T23:59:00",
       "link": "https://www.gradescope.com/courses/825036/assignments/5218113/submissions/new",
       "submitted": false
     },
     {
       "title": "Homework 8 [Written Component]",
       "course": "CS188",
-      "dueDate": "2024-11-05T23:59:00",
+      "dueDate": "2024-11-06T23:59:00",
       "link": "https://www.gradescope.com/courses/825036",
       "submitted": false
     },
     {
       "title": "Homework 7 [Self-Assessment]",
       "course": "CS188",
-      "dueDate": "2024-11-05T23:59:00",
+      "dueDate": "2024-11-06T23:59:00",
       "link": "https://www.gradescope.com/courses/825036",
       "submitted": false
     },
