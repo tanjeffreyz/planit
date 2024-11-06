@@ -363,6 +363,13 @@ assignments = {
       "title": "Homework 9 [Electronic Component]",
       "course": "CS188",
       "dueDate": "2024-11-12T23:59:00",
+      "link": "https://www.gradescope.com/courses/825036/assignments/5263127/submissions/new",
+      "submitted": false
+    },
+    {
+      "title": "Homework 9 [Written Component]",
+      "course": "CS188",
+      "dueDate": "2024-11-12T23:59:00",
       "link": "https://www.gradescope.com/courses/825036",
       "submitted": false
     }
