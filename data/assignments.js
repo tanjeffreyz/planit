@@ -342,8 +342,8 @@ assignments = {
       "title": "Homework 8 [Written Component]",
       "course": "CS188",
       "dueDate": "2024-11-06T23:59:00",
-      "link": "https://www.gradescope.com/courses/825036",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/825036/assignments/5241652/submissions/286231168",
+      "submitted": true
     },
     {
       "title": "Homework 7 [Self-Assessment]",
