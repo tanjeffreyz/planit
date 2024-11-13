@@ -393,6 +393,27 @@ assignments = {
       "dueDate": "2024-11-12T23:59:00",
       "link": "https://www.gradescope.com/courses/825036/assignments/5271019/submissions/288454130",
       "submitted": true
+    },
+    {
+      "title": "Homework 10 [Electronic Component]",
+      "course": "CS188",
+      "dueDate": "2024-11-19T23:59:00",
+      "link": "https://www.gradescope.com/courses/825036/assignments/5300493/submissions/new",
+      "submitted": false
+    },
+    {
+      "title": "Homework 9 [Self-Assessment]",
+      "course": "CS188",
+      "dueDate": "2024-11-19T23:59:00",
+      "link": "https://www.gradescope.com/courses/825036",
+      "submitted": false
+    },
+    {
+      "title": "Homework 10 [Written Component]",
+      "course": "CS188",
+      "dueDate": "2024-11-19T23:59:00",
+      "link": "https://www.gradescope.com/courses/825036",
+      "submitted": false
     }
   ]
 };
