@@ -425,7 +425,7 @@ assignments = {
     {
       "title": "Homework 10 [Self-Assessment]",
       "course": "CS188",
-      "dueDate": "2024-11-26T23:59:00",
+      "dueDate": "2024-12-03T23:59:00",
       "link": "https://www.gradescope.com/courses/825036",
       "submitted": false
     }
