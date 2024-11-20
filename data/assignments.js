@@ -421,6 +421,13 @@ assignments = {
       "dueDate": "2024-11-19T23:59:00",
       "link": "https://www.gradescope.com/courses/825036/assignments/5313919/submissions/290951991",
       "submitted": true
+    },
+    {
+      "title": "Homework 10 [Self-Assessment]",
+      "course": "CS188",
+      "dueDate": "2024-11-26T23:59:00",
+      "link": "https://www.gradescope.com/courses/825036",
+      "submitted": false
     }
   ]
 };
