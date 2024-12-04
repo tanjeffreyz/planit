@@ -181,6 +181,20 @@ assignments = {
       "dueDate": "2024-11-26T23:59:00",
       "link": "https://www.gradescope.com/courses/852247/assignments/5369834/submissions/293057619",
       "submitted": true
+    },
+    {
+      "title": "Quiz 11",
+      "course": "CS 194/294-196",
+      "dueDate": "2024-12-12T23:59:00",
+      "link": "https://www.gradescope.com/courses/852247/assignments/5406524/submissions/new",
+      "submitted": false
+    },
+    {
+      "title": "Quiz 12",
+      "course": "CS 194/294-196",
+      "dueDate": "2024-12-12T23:59:00",
+      "link": "https://www.gradescope.com/courses/852247/assignments/5406551/submissions/new",
+      "submitted": false
     }
   ],
   "CS188": [
