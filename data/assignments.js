@@ -18,8 +18,8 @@ assignments = {
       "title": "Article [1 Unit Students ONLY]",
       "course": "CS 194/294-196",
       "dueDate": "2024-12-09T23:59:00",
-      "link": "https://www.gradescope.com/courses/852247/assignments/4915347/submissions/new",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/852247/assignments/4915347/submissions/295828867",
+      "submitted": true
     },
     {
       "title": "9/23 Reading Summary & Questions",
